@@ -125,5 +125,17 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botao2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoVermelho2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Botao2Baixo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BotaoVermelho2Baixo.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

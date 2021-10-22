@@ -20,12 +20,32 @@ namespace ElevadorSistemasSupervisorios
             DirectionIndicatorImage.Parent = InternalPanelImage;
             DirectionIndicatorImage.BackColor = Color.Transparent;
             
-            //Setup dos botões
-            SetupButton(Floor1Button, () => { Debug.WriteLine("Clicou"); });
+            //Setup dos botões do painel interno
+            SetupButton(Floor1Button, InternalPanelImage, () => { FloorIndicatorText.Text = "1"; });
+            SetupButton(Floor2Button, InternalPanelImage, () => { FloorIndicatorText.Text = "2"; });
+            SetupButton(Floor3Button, InternalPanelImage, () => { FloorIndicatorText.Text = "3"; });
+            SetupButton(Floor4Button, InternalPanelImage, () => { FloorIndicatorText.Text = "4"; });
+            SetupButton(Floor5Button, InternalPanelImage, () => { FloorIndicatorText.Text = "5"; });
+            SetupButton(Floor6Button, InternalPanelImage, () => { FloorIndicatorText.Text = "6"; });
+            SetupButton(Floor7Button, InternalPanelImage, () => { FloorIndicatorText.Text = "7"; });
+            SetupButton(Floor8Button, InternalPanelImage, () => { FloorIndicatorText.Text = "8"; });
+            SetupButton(Floor9Button, InternalPanelImage, () => { FloorIndicatorText.Text = "9"; });
+            SetupButton(Floor10Button, InternalPanelImage, () => { FloorIndicatorText.Text = "10"; });
+
+            //Setup dos botões do painel externo
+            SetupFloor(Floor1Text, Floor1PanelImage, UpFloor1Button, DownFloor1Button, () => { }, () => { });
+            SetupFloor(Floor2Text, Floor2PanelImage, UpFloor2Button, DownFloor2Button, () => { }, () => { });
+            SetupFloor(Floor3Text, Floor3PanelImage, UpFloor3Button, DownFloor3Button, () => { }, () => { });
+            SetupFloor(Floor4Text, Floor4PanelImage, UpFloor4Button, DownFloor4Button, () => { }, () => { });
+            SetupFloor(Floor5Text, Floor5PanelImage, UpFloor5Button, DownFloor5Button, () => { }, () => { });
+            SetupFloor(Floor6Text, Floor6PanelImage, UpFloor6Button, DownFloor6Button, () => { }, () => { });
+            SetupFloor(Floor7Text, Floor7PanelImage, UpFloor7Button, DownFloor7Button, () => { }, () => { });
+            SetupFloor(Floor8Text, Floor8PanelImage, UpFloor8Button, DownFloor8Button, () => { }, () => { });
+            SetupFloor(Floor9Text, Floor9PanelImage, UpFloor9Button, DownFloor9Button, () => { }, () => { });
+            SetupFloor(Floor10Text, Floor10PanelImage, UpFloor10Button, DownFloor10Button, () => { }, () => { });
 
             //Carregas as fontes custom
             FloorIndicatorText.Font = GetCustomFont(Properties.Resources.LLDOT2__, FloorIndicatorText.Font.Size);
-            Floor1Button.Font = GetCustomFont(Properties.Resources.Bebas_Regular, Floor1Button.Font.Size);
         }
 
         private Font GetCustomFont(byte[] fontData, float size)
@@ -40,10 +60,23 @@ namespace ElevadorSistemasSupervisorios
             return new Font(pfc.Families[0], size);
         }
 
-        private void SetupButton(Button button, Action onClick)
+        private void SetupFloor(Label floorLabel, Control parent, Button buttonUp, Button buttonDown, Action onClickUp,
+            Action onClickDown)
         {
+            floorLabel.Parent = parent;
+            floorLabel.BackColor = Color.Transparent;
+            floorLabel.Font = GetCustomFont(Properties.Resources.Bebas_Regular, floorLabel.Font.Size);
+            SetupButton(buttonUp, parent, onClickUp);
+            SetupButton(buttonDown, parent, onClickDown);
+        }
+
+        private void SetupButton(Button button, Control parent, Action onClick)
+        {
+            //Carrega a fonte custom
+            button.Font = GetCustomFont(Properties.Resources.Bebas_Regular, button.Font.Size);
+
             //Definindo parents para habilitar a transparencia
-            button.Parent = InternalPanelImage;
+            button.Parent = parent;
             button.BackColor = Color.Transparent;
 
             var increaseSizeTimer = new Timer();
@@ -60,7 +93,7 @@ namespace ElevadorSistemasSupervisorios
             var initialWidth = button.Width;
             var initialHeight = button.Height;
 
-            //Vai diminuir 10% do tamanho original
+            //Vai diminuir 1% do tamanho original
             var resizePercent = 0.01f;
             var finalWidth = initialWidth + initialWidth * resizePercent;
             var finalHeight = initialHeight + initialHeight * resizePercent;

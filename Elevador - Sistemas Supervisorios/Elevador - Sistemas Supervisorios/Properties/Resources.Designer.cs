@@ -83,9 +83,49 @@ namespace ElevadorSistemasSupervisorios.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Botao2 {
+            get {
+                object obj = ResourceManager.GetObject("Botao2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Botao2Baixo {
+            get {
+                object obj = ResourceManager.GetObject("Botao2Baixo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap BotaoVermelho {
             get {
                 object obj = ResourceManager.GetObject("BotaoVermelho", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BotaoVermelho2 {
+            get {
+                object obj = ResourceManager.GetObject("BotaoVermelho2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BotaoVermelho2Baixo {
+            get {
+                object obj = ResourceManager.GetObject("BotaoVermelho2Baixo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
