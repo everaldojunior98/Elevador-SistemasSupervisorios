@@ -79,6 +79,12 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest" />
+    <None Include="Fonts\Bebas-Regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Fonts\LLDOT2__.TTF">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -93,15 +99,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Bebas-Regular.ttf" />
     <None Include="Resources\Botao.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\BotaoVermelho.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\eras-demi.otf" />
-    <None Include="Resources\LLDOT2__.TTF" />
     <None Include="Resources\PainelExterno.png" />
   </ItemGroup>
   <ItemGroup>
@@ -137,5 +140,6 @@
   <ItemGroup>
     <None Include="Resources\BotaoVermelho2Baixo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

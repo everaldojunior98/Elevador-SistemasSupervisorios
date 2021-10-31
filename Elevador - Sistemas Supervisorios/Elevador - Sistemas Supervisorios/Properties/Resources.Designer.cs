@@ -61,16 +61,6 @@ namespace ElevadorSistemasSupervisorios.Properties {
         }
         
         /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Byte[].
-        /// </summary>
-        internal static byte[] Bebas_Regular {
-            get {
-                object obj = ResourceManager.GetObject("Bebas_Regular", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap Botao {
@@ -127,16 +117,6 @@ namespace ElevadorSistemasSupervisorios.Properties {
             get {
                 object obj = ResourceManager.GetObject("BotaoVermelho2Baixo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Byte[].
-        /// </summary>
-        internal static byte[] LLDOT2__ {
-            get {
-                object obj = ResourceManager.GetObject("LLDOT2__", resourceCulture);
-                return ((byte[])(obj));
             }
         }
         

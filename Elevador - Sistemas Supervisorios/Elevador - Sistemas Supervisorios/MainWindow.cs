@@ -1,17 +1,30 @@
 ﻿using System;
-using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Text;
-using System.Runtime.InteropServices;
+using System.IO;
+using System.Linq;
 using System.Windows.Forms;
 
 namespace ElevadorSistemasSupervisorios
 {
     public partial class MainWindow : Form
     {
+        private const string BebasFontName = "Bebas-Regular";
+        private readonly Font bebasFont;
+
+        private const string LCDFontName = "LLDOT2__";
+        private readonly Font lcdFont;
+
+        private PrivateFontCollection customFontCollection;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            //Carregando as fontes custom
+            customFontCollection = new PrivateFontCollection();
+            bebasFont = AddFontFile(BebasFontName);
+            lcdFont = AddFontFile(LCDFontName);
 
             //Definindo parents para habilitar a transparencia
             FloorIndicatorText.Parent = InternalPanelImage;
@@ -45,19 +58,18 @@ namespace ElevadorSistemasSupervisorios
             SetupFloor(Floor10Text, Floor10PanelImage, UpFloor10Button, DownFloor10Button, () => { }, () => { });
 
             //Carregas as fontes custom
-            FloorIndicatorText.Font = GetCustomFont(Properties.Resources.LLDOT2__, FloorIndicatorText.Font.Size);
+            FloorIndicatorText.Font = GetCustomFont(lcdFont, FloorIndicatorText.Font.Size);
         }
 
-        private Font GetCustomFont(byte[] fontData, float size)
+        private Font AddFontFile(string fontName)
         {
-            var pfc = new PrivateFontCollection();
-            var fontLength = fontData.Length;
-            var data = Marshal.AllocCoTaskMem(fontLength);
+            customFontCollection.AddFontFile(Path.Combine(Application.StartupPath, "Fonts", $"{fontName}.ttf"));
+            return new Font(customFontCollection.Families.Last(), 20f);
+        }
 
-            Marshal.Copy(fontData, 0, data, fontLength);
-            pfc.AddMemoryFont(data, fontLength);
-
-            return new Font(pfc.Families[0], size);
+        private Font GetCustomFont(Font font, float fontSize)
+        {
+            return new Font(font.FontFamily, fontSize);
         }
 
         private void SetupFloor(Label floorLabel, Control parent, Button buttonUp, Button buttonDown, Action onClickUp,
@@ -65,7 +77,7 @@ namespace ElevadorSistemasSupervisorios
         {
             floorLabel.Parent = parent;
             floorLabel.BackColor = Color.Transparent;
-            floorLabel.Font = GetCustomFont(Properties.Resources.Bebas_Regular, floorLabel.Font.Size);
+            floorLabel.Font = GetCustomFont(bebasFont, floorLabel.Font.Size);
             SetupButton(buttonUp, parent, onClickUp);
             SetupButton(buttonDown, parent, onClickDown);
         }
@@ -73,7 +85,7 @@ namespace ElevadorSistemasSupervisorios
         private void SetupButton(Button button, Control parent, Action onClick)
         {
             //Carrega a fonte custom
-            button.Font = GetCustomFont(Properties.Resources.Bebas_Regular, button.Font.Size);
+            button.Font = GetCustomFont(bebasFont, button.Font.Size);
 
             //Definindo parents para habilitar a transparencia
             button.Parent = parent;
