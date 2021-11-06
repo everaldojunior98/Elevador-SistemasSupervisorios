@@ -57,6 +57,10 @@ namespace ElevadorSistemasSupervisorios
             GabrielText.BackColor = Color.Transparent;
             GabrielText.Font = GetCustomFont(bebasFont, GabrielText.Font.Size);
 
+            //CheckBox Modo Operacional
+            AutomaticCheckBox.CheckedChanged += AutomaticCheckBox_CheckedChanged;
+            ManualCheckBox.CheckedChanged += ManualCheckBox_CheckedChanged;
+            AutomaticCheckBox.Checked = true;
 
             //Setup dos botões do painel interno
             SetupButton(Floor1Button, InternalPanelImage, () => { FloorIndicatorText.Text = "1"; });
@@ -84,6 +88,22 @@ namespace ElevadorSistemasSupervisorios
 
             //Carregas as fontes custom
             FloorIndicatorText.Font = GetCustomFont(lcdFont, FloorIndicatorText.Font.Size);
+        }
+
+        private void AutomaticCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if(AutomaticCheckBox.Checked)
+                ManualCheckBox.Checked = false;
+            else
+                ManualCheckBox.Checked = true;
+        }
+
+        private void ManualCheckBox_CheckedChanged(object sender, EventArgs e)
+        {
+            if (ManualCheckBox.Checked)
+                AutomaticCheckBox.Checked = false;
+            else
+                AutomaticCheckBox.Checked = true;
         }
 
         private Font AddFontFile(string fontName)
