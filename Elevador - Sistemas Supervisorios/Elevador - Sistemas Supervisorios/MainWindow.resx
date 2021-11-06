@@ -119,7 +119,7 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="FloorIndicatorText.Font" type="System.Drawing.Font, System.Drawing">
-    <value>LLDot, 50.24999pt</value>
+    <value>Microsoft Sans Serif, 50.24999pt</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="FloorIndicatorText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -151,7 +151,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;FloorIndicatorText.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>23</value>
   </data>
   <data name="&gt;&gt;Floor1Text.Name" xml:space="preserve">
     <value>Floor1Text</value>
@@ -220,10 +220,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="Floor1Text.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 17.9999981pt</value>
+    <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
   <data name="Floor1Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -254,513 +254,6 @@
   </data>
   <data name="&gt;&gt;Floor1Text.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="DownFloor1Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="DownFloor1Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="DownFloor1Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="DownFloor1Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DownFloor1Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 117</value>
-  </data>
-  <data name="DownFloor1Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="DownFloor1Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;DownFloor1Button.Name" xml:space="preserve">
-    <value>DownFloor1Button</value>
-  </data>
-  <data name="&gt;&gt;DownFloor1Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DownFloor1Button.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;DownFloor1Button.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UpFloor1Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="UpFloor1Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="UpFloor1Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="UpFloor1Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="UpFloor1Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 61</value>
-  </data>
-  <data name="UpFloor1Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="UpFloor1Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UpFloor1Button.Name" xml:space="preserve">
-    <value>UpFloor1Button</value>
-  </data>
-  <data name="&gt;&gt;UpFloor1Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpFloor1Button.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;UpFloor1Button.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Floor1PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor1PanelImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Floor1PanelImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 215</value>
-  </data>
-  <data name="Floor1PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor1PanelImage.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;Floor1PanelImage.Name" xml:space="preserve">
-    <value>Floor1PanelImage</value>
-  </data>
-  <data name="&gt;&gt;Floor1PanelImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor1PanelImage.Parent" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;Floor1PanelImage.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="Floor10Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor10Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Floor10Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="Floor10Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor10Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 139</value>
-  </data>
-  <data name="Floor10Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="Floor10Button.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Floor10Button.Text" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;Floor10Button.Name" xml:space="preserve">
-    <value>Floor10Button</value>
-  </data>
-  <data name="&gt;&gt;Floor10Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor10Button.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Floor10Button.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="Floor9Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor9Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Floor9Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="Floor9Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor9Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 139</value>
-  </data>
-  <data name="Floor9Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="Floor9Button.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="Floor9Button.Text" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;Floor9Button.Name" xml:space="preserve">
-    <value>Floor9Button</value>
-  </data>
-  <data name="&gt;&gt;Floor9Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor9Button.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Floor9Button.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="Floor8Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor8Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Floor8Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="Floor8Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor8Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 195</value>
-  </data>
-  <data name="Floor8Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="Floor8Button.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="Floor8Button.Text" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;Floor8Button.Name" xml:space="preserve">
-    <value>Floor8Button</value>
-  </data>
-  <data name="&gt;&gt;Floor8Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor8Button.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Floor8Button.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="Floor7Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor7Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Floor7Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="Floor7Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor7Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 195</value>
-  </data>
-  <data name="Floor7Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="Floor7Button.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="Floor7Button.Text" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;Floor7Button.Name" xml:space="preserve">
-    <value>Floor7Button</value>
-  </data>
-  <data name="&gt;&gt;Floor7Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor7Button.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Floor7Button.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="Floor6Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor6Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Floor6Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="Floor6Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor6Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 251</value>
-  </data>
-  <data name="Floor6Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="Floor6Button.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="Floor6Button.Text" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;Floor6Button.Name" xml:space="preserve">
-    <value>Floor6Button</value>
-  </data>
-  <data name="&gt;&gt;Floor6Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor6Button.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Floor6Button.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="Floor5Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor5Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Floor5Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="Floor5Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor5Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 251</value>
-  </data>
-  <data name="Floor5Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="Floor5Button.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
-  </data>
-  <data name="Floor5Button.Text" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="&gt;&gt;Floor5Button.Name" xml:space="preserve">
-    <value>Floor5Button</value>
-  </data>
-  <data name="&gt;&gt;Floor5Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor5Button.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Floor5Button.ZOrder" xml:space="preserve">
-    <value>15</value>
-  </data>
-  <data name="Floor4Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor4Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Floor4Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="Floor4Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor4Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 307</value>
-  </data>
-  <data name="Floor4Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="Floor4Button.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="Floor4Button.Text" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;Floor4Button.Name" xml:space="preserve">
-    <value>Floor4Button</value>
-  </data>
-  <data name="&gt;&gt;Floor4Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor4Button.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Floor4Button.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="Floor3Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor3Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Floor3Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="Floor3Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor3Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 307</value>
-  </data>
-  <data name="Floor3Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="Floor3Button.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="Floor3Button.Text" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;Floor3Button.Name" xml:space="preserve">
-    <value>Floor3Button</value>
-  </data>
-  <data name="&gt;&gt;Floor3Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor3Button.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Floor3Button.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="Floor2Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor2Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Floor2Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="Floor2Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor2Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>113, 363</value>
-  </data>
-  <data name="Floor2Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="Floor2Button.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="Floor2Button.Text" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;Floor2Button.Name" xml:space="preserve">
-    <value>Floor2Button</value>
-  </data>
-  <data name="&gt;&gt;Floor2Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor2Button.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Floor2Button.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="Floor1Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor1Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="Floor1Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="Floor1Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor1Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 363</value>
-  </data>
-  <data name="Floor1Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="Floor1Button.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="Floor1Button.Text" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;Floor1Button.Name" xml:space="preserve">
-    <value>Floor1Button</value>
-  </data>
-  <data name="&gt;&gt;Floor1Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor1Button.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;Floor1Button.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="DirectionIndicatorImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DirectionIndicatorImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 41</value>
-  </data>
-  <data name="DirectionIndicatorImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>41, 64</value>
-  </data>
-  <data name="DirectionIndicatorImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="DirectionIndicatorImage.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;DirectionIndicatorImage.Name" xml:space="preserve">
-    <value>DirectionIndicatorImage</value>
-  </data>
-  <data name="&gt;&gt;DirectionIndicatorImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DirectionIndicatorImage.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;DirectionIndicatorImage.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="InternalPanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="InternalPanelImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 4</value>
-  </data>
-  <data name="InternalPanelImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 533</value>
-  </data>
-  <data name="InternalPanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="InternalPanelImage.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
-  </data>
-  <data name="&gt;&gt;InternalPanelImage.Name" xml:space="preserve">
-    <value>InternalPanelImage</value>
-  </data>
-  <data name="&gt;&gt;InternalPanelImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;InternalPanelImage.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;InternalPanelImage.ZOrder" xml:space="preserve">
-    <value>22</value>
   </data>
   <data name="&gt;&gt;Floor6Text.Name" xml:space="preserve">
     <value>Floor6Text</value>
@@ -829,10 +322,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="Floor6Text.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 17.9999981pt</value>
+    <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
   <data name="Floor6Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -863,99 +356,6 @@
   </data>
   <data name="&gt;&gt;Floor6Text.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="DownFloor6Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="DownFloor6Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="DownFloor6Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="DownFloor6Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DownFloor6Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 117</value>
-  </data>
-  <data name="DownFloor6Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="DownFloor6Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;DownFloor6Button.Name" xml:space="preserve">
-    <value>DownFloor6Button</value>
-  </data>
-  <data name="&gt;&gt;DownFloor6Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DownFloor6Button.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;DownFloor6Button.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UpFloor6Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="UpFloor6Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="UpFloor6Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="UpFloor6Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="UpFloor6Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 61</value>
-  </data>
-  <data name="UpFloor6Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="UpFloor6Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UpFloor6Button.Name" xml:space="preserve">
-    <value>UpFloor6Button</value>
-  </data>
-  <data name="&gt;&gt;UpFloor6Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpFloor6Button.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;UpFloor6Button.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Floor6PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor6PanelImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Floor6PanelImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 215</value>
-  </data>
-  <data name="Floor6PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor6PanelImage.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;Floor6PanelImage.Name" xml:space="preserve">
-    <value>Floor6PanelImage</value>
-  </data>
-  <data name="&gt;&gt;Floor6PanelImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor6PanelImage.Parent" xml:space="preserve">
-    <value>panel2</value>
-  </data>
-  <data name="&gt;&gt;Floor6PanelImage.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;Floor2Text.Name" xml:space="preserve">
     <value>Floor2Text</value>
@@ -1024,10 +424,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="Floor2Text.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 17.9999981pt</value>
+    <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
   <data name="Floor2Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1058,99 +458,6 @@
   </data>
   <data name="&gt;&gt;Floor2Text.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="DownFloor2Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="DownFloor2Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="DownFloor2Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="DownFloor2Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DownFloor2Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 117</value>
-  </data>
-  <data name="DownFloor2Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="DownFloor2Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;DownFloor2Button.Name" xml:space="preserve">
-    <value>DownFloor2Button</value>
-  </data>
-  <data name="&gt;&gt;DownFloor2Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DownFloor2Button.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;DownFloor2Button.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UpFloor2Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="UpFloor2Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="UpFloor2Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="UpFloor2Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="UpFloor2Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 61</value>
-  </data>
-  <data name="UpFloor2Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="UpFloor2Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UpFloor2Button.Name" xml:space="preserve">
-    <value>UpFloor2Button</value>
-  </data>
-  <data name="&gt;&gt;UpFloor2Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpFloor2Button.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;UpFloor2Button.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Floor2PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor2PanelImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Floor2PanelImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 215</value>
-  </data>
-  <data name="Floor2PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor2PanelImage.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;Floor2PanelImage.Name" xml:space="preserve">
-    <value>Floor2PanelImage</value>
-  </data>
-  <data name="&gt;&gt;Floor2PanelImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor2PanelImage.Parent" xml:space="preserve">
-    <value>panel3</value>
-  </data>
-  <data name="&gt;&gt;Floor2PanelImage.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;Floor3Text.Name" xml:space="preserve">
     <value>Floor3Text</value>
@@ -1219,10 +526,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="Floor3Text.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 17.9999981pt</value>
+    <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
   <data name="Floor3Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1253,99 +560,6 @@
   </data>
   <data name="&gt;&gt;Floor3Text.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="DownFloor3Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="DownFloor3Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="DownFloor3Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="DownFloor3Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DownFloor3Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 117</value>
-  </data>
-  <data name="DownFloor3Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="DownFloor3Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;DownFloor3Button.Name" xml:space="preserve">
-    <value>DownFloor3Button</value>
-  </data>
-  <data name="&gt;&gt;DownFloor3Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DownFloor3Button.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;DownFloor3Button.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UpFloor3Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="UpFloor3Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="UpFloor3Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="UpFloor3Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="UpFloor3Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 61</value>
-  </data>
-  <data name="UpFloor3Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="UpFloor3Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UpFloor3Button.Name" xml:space="preserve">
-    <value>UpFloor3Button</value>
-  </data>
-  <data name="&gt;&gt;UpFloor3Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpFloor3Button.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;UpFloor3Button.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Floor3PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor3PanelImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Floor3PanelImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 215</value>
-  </data>
-  <data name="Floor3PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor3PanelImage.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;Floor3PanelImage.Name" xml:space="preserve">
-    <value>Floor3PanelImage</value>
-  </data>
-  <data name="&gt;&gt;Floor3PanelImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor3PanelImage.Parent" xml:space="preserve">
-    <value>panel4</value>
-  </data>
-  <data name="&gt;&gt;Floor3PanelImage.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;Floor4Text.Name" xml:space="preserve">
     <value>Floor4Text</value>
@@ -1414,10 +628,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="Floor4Text.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 17.9999981pt</value>
+    <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
   <data name="Floor4Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1448,99 +662,6 @@
   </data>
   <data name="&gt;&gt;Floor4Text.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="DownFloor4Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="DownFloor4Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="DownFloor4Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="DownFloor4Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DownFloor4Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 117</value>
-  </data>
-  <data name="DownFloor4Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="DownFloor4Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;DownFloor4Button.Name" xml:space="preserve">
-    <value>DownFloor4Button</value>
-  </data>
-  <data name="&gt;&gt;DownFloor4Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DownFloor4Button.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;DownFloor4Button.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UpFloor4Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="UpFloor4Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="UpFloor4Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="UpFloor4Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="UpFloor4Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 61</value>
-  </data>
-  <data name="UpFloor4Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="UpFloor4Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UpFloor4Button.Name" xml:space="preserve">
-    <value>UpFloor4Button</value>
-  </data>
-  <data name="&gt;&gt;UpFloor4Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpFloor4Button.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;UpFloor4Button.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Floor4PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor4PanelImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Floor4PanelImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 215</value>
-  </data>
-  <data name="Floor4PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor4PanelImage.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;Floor4PanelImage.Name" xml:space="preserve">
-    <value>Floor4PanelImage</value>
-  </data>
-  <data name="&gt;&gt;Floor4PanelImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor4PanelImage.Parent" xml:space="preserve">
-    <value>panel5</value>
-  </data>
-  <data name="&gt;&gt;Floor4PanelImage.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;Floor5Text.Name" xml:space="preserve">
     <value>Floor5Text</value>
@@ -1609,10 +730,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="Floor5Text.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 17.9999981pt</value>
+    <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
   <data name="Floor5Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1643,99 +764,6 @@
   </data>
   <data name="&gt;&gt;Floor5Text.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="DownFloor5Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="DownFloor5Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="DownFloor5Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="DownFloor5Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DownFloor5Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 117</value>
-  </data>
-  <data name="DownFloor5Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="DownFloor5Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;DownFloor5Button.Name" xml:space="preserve">
-    <value>DownFloor5Button</value>
-  </data>
-  <data name="&gt;&gt;DownFloor5Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DownFloor5Button.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;DownFloor5Button.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UpFloor5Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="UpFloor5Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="UpFloor5Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="UpFloor5Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="UpFloor5Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 61</value>
-  </data>
-  <data name="UpFloor5Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="UpFloor5Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UpFloor5Button.Name" xml:space="preserve">
-    <value>UpFloor5Button</value>
-  </data>
-  <data name="&gt;&gt;UpFloor5Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpFloor5Button.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;UpFloor5Button.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Floor5PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor5PanelImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Floor5PanelImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 215</value>
-  </data>
-  <data name="Floor5PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor5PanelImage.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;Floor5PanelImage.Name" xml:space="preserve">
-    <value>Floor5PanelImage</value>
-  </data>
-  <data name="&gt;&gt;Floor5PanelImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor5PanelImage.Parent" xml:space="preserve">
-    <value>panel6</value>
-  </data>
-  <data name="&gt;&gt;Floor5PanelImage.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;Floor7Text.Name" xml:space="preserve">
     <value>Floor7Text</value>
@@ -1804,10 +832,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="Floor7Text.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 17.9999981pt</value>
+    <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
   <data name="Floor7Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -1838,99 +866,6 @@
   </data>
   <data name="&gt;&gt;Floor7Text.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="DownFloor7Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="DownFloor7Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="DownFloor7Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="DownFloor7Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DownFloor7Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 117</value>
-  </data>
-  <data name="DownFloor7Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="DownFloor7Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;DownFloor7Button.Name" xml:space="preserve">
-    <value>DownFloor7Button</value>
-  </data>
-  <data name="&gt;&gt;DownFloor7Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DownFloor7Button.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="&gt;&gt;DownFloor7Button.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UpFloor7Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="UpFloor7Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="UpFloor7Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="UpFloor7Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="UpFloor7Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 61</value>
-  </data>
-  <data name="UpFloor7Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="UpFloor7Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UpFloor7Button.Name" xml:space="preserve">
-    <value>UpFloor7Button</value>
-  </data>
-  <data name="&gt;&gt;UpFloor7Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpFloor7Button.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="&gt;&gt;UpFloor7Button.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Floor7PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor7PanelImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Floor7PanelImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 215</value>
-  </data>
-  <data name="Floor7PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor7PanelImage.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;Floor7PanelImage.Name" xml:space="preserve">
-    <value>Floor7PanelImage</value>
-  </data>
-  <data name="&gt;&gt;Floor7PanelImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor7PanelImage.Parent" xml:space="preserve">
-    <value>panel7</value>
-  </data>
-  <data name="&gt;&gt;Floor7PanelImage.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;Floor8Text.Name" xml:space="preserve">
     <value>Floor8Text</value>
@@ -1999,10 +934,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="Floor8Text.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 17.9999981pt</value>
+    <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
   <data name="Floor8Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2033,99 +968,6 @@
   </data>
   <data name="&gt;&gt;Floor8Text.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="DownFloor8Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="DownFloor8Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="DownFloor8Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="DownFloor8Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DownFloor8Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 117</value>
-  </data>
-  <data name="DownFloor8Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="DownFloor8Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;DownFloor8Button.Name" xml:space="preserve">
-    <value>DownFloor8Button</value>
-  </data>
-  <data name="&gt;&gt;DownFloor8Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DownFloor8Button.Parent" xml:space="preserve">
-    <value>panel8</value>
-  </data>
-  <data name="&gt;&gt;DownFloor8Button.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UpFloor8Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="UpFloor8Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="UpFloor8Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="UpFloor8Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="UpFloor8Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 61</value>
-  </data>
-  <data name="UpFloor8Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="UpFloor8Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UpFloor8Button.Name" xml:space="preserve">
-    <value>UpFloor8Button</value>
-  </data>
-  <data name="&gt;&gt;UpFloor8Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpFloor8Button.Parent" xml:space="preserve">
-    <value>panel8</value>
-  </data>
-  <data name="&gt;&gt;UpFloor8Button.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Floor8PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor8PanelImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Floor8PanelImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 215</value>
-  </data>
-  <data name="Floor8PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor8PanelImage.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;Floor8PanelImage.Name" xml:space="preserve">
-    <value>Floor8PanelImage</value>
-  </data>
-  <data name="&gt;&gt;Floor8PanelImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor8PanelImage.Parent" xml:space="preserve">
-    <value>panel8</value>
-  </data>
-  <data name="&gt;&gt;Floor8PanelImage.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;Floor9Text.Name" xml:space="preserve">
     <value>Floor9Text</value>
@@ -2194,10 +1036,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>3</value>
   </data>
   <data name="Floor9Text.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 17.9999981pt</value>
+    <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
   <data name="Floor9Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2228,99 +1070,6 @@
   </data>
   <data name="&gt;&gt;Floor9Text.ZOrder" xml:space="preserve">
     <value>0</value>
-  </data>
-  <data name="DownFloor9Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="DownFloor9Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="DownFloor9Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="DownFloor9Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="DownFloor9Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 117</value>
-  </data>
-  <data name="DownFloor9Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="DownFloor9Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;DownFloor9Button.Name" xml:space="preserve">
-    <value>DownFloor9Button</value>
-  </data>
-  <data name="&gt;&gt;DownFloor9Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;DownFloor9Button.Parent" xml:space="preserve">
-    <value>panel9</value>
-  </data>
-  <data name="&gt;&gt;DownFloor9Button.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="UpFloor9Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="UpFloor9Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
-    <value>Flat</value>
-  </data>
-  <data name="UpFloor9Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
-  </data>
-  <data name="UpFloor9Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="UpFloor9Button.Location" type="System.Drawing.Point, System.Drawing">
-    <value>42, 61</value>
-  </data>
-  <data name="UpFloor9Button.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 55</value>
-  </data>
-  <data name="UpFloor9Button.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;UpFloor9Button.Name" xml:space="preserve">
-    <value>UpFloor9Button</value>
-  </data>
-  <data name="&gt;&gt;UpFloor9Button.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;UpFloor9Button.Parent" xml:space="preserve">
-    <value>panel9</value>
-  </data>
-  <data name="&gt;&gt;UpFloor9Button.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="Floor9PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="Floor9PanelImage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>0, 0</value>
-  </data>
-  <data name="Floor9PanelImage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>143, 215</value>
-  </data>
-  <data name="Floor9PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>Zoom</value>
-  </data>
-  <data name="Floor9PanelImage.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;Floor9PanelImage.Name" xml:space="preserve">
-    <value>Floor9PanelImage</value>
-  </data>
-  <data name="&gt;&gt;Floor9PanelImage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;Floor9PanelImage.Parent" xml:space="preserve">
-    <value>panel9</value>
-  </data>
-  <data name="&gt;&gt;Floor9PanelImage.ZOrder" xml:space="preserve">
-    <value>3</value>
   </data>
   <data name="&gt;&gt;Floor10Text.Name" xml:space="preserve">
     <value>Floor10Text</value>
@@ -2389,10 +1138,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="Floor10Text.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 17.9999981pt</value>
+    <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
   <data name="Floor10Text.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2424,6 +1173,72 @@
   <data name="&gt;&gt;Floor10Text.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <data name="AutomaticCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AutomaticCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="AutomaticCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="AutomaticCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 79</value>
+  </data>
+  <data name="AutomaticCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 28</value>
+  </data>
+  <data name="AutomaticCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="AutomaticCheckBox.Text" xml:space="preserve">
+    <value>Automatico</value>
+  </data>
+  <data name="&gt;&gt;AutomaticCheckBox.Name" xml:space="preserve">
+    <value>AutomaticCheckBox</value>
+  </data>
+  <data name="&gt;&gt;AutomaticCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AutomaticCheckBox.Parent" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;AutomaticCheckBox.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ManualCheckBox.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ManualCheckBox.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="ManualCheckBox.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ManualCheckBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>21, 46</value>
+  </data>
+  <data name="ManualCheckBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 28</value>
+  </data>
+  <data name="ManualCheckBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="ManualCheckBox.Text" xml:space="preserve">
+    <value>Manual</value>
+  </data>
+  <data name="&gt;&gt;ManualCheckBox.Name" xml:space="preserve">
+    <value>ManualCheckBox</value>
+  </data>
+  <data name="&gt;&gt;ManualCheckBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ManualCheckBox.Parent" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;ManualCheckBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="DownFloor10Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Zoom</value>
   </data>
@@ -2431,7 +1246,7 @@
     <value>Flat</value>
   </data>
   <data name="DownFloor10Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
+    <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="DownFloor10Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2464,7 +1279,7 @@
     <value>Flat</value>
   </data>
   <data name="UpFloor10Button.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Bebas, 15.75pt</value>
+    <value>Microsoft Sans Serif, 15.75pt</value>
   </data>
   <data name="UpFloor10Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
@@ -2517,6 +1332,1485 @@
   <data name="&gt;&gt;Floor10PanelImage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="DownFloor9Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DownFloor9Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DownFloor9Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="DownFloor9Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DownFloor9Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 117</value>
+  </data>
+  <data name="DownFloor9Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="DownFloor9Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DownFloor9Button.Name" xml:space="preserve">
+    <value>DownFloor9Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor9Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor9Button.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;DownFloor9Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpFloor9Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="UpFloor9Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="UpFloor9Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="UpFloor9Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpFloor9Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 61</value>
+  </data>
+  <data name="UpFloor9Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="UpFloor9Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UpFloor9Button.Name" xml:space="preserve">
+    <value>UpFloor9Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor9Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor9Button.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;UpFloor9Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Floor9PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor9PanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Floor9PanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 215</value>
+  </data>
+  <data name="Floor9PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor9PanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Floor9PanelImage.Name" xml:space="preserve">
+    <value>Floor9PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor9PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor9PanelImage.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;Floor9PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DownFloor8Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DownFloor8Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DownFloor8Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="DownFloor8Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DownFloor8Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 117</value>
+  </data>
+  <data name="DownFloor8Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="DownFloor8Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DownFloor8Button.Name" xml:space="preserve">
+    <value>DownFloor8Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor8Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor8Button.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;DownFloor8Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpFloor8Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="UpFloor8Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="UpFloor8Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="UpFloor8Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpFloor8Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 61</value>
+  </data>
+  <data name="UpFloor8Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="UpFloor8Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UpFloor8Button.Name" xml:space="preserve">
+    <value>UpFloor8Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor8Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor8Button.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;UpFloor8Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Floor8PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor8PanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Floor8PanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 215</value>
+  </data>
+  <data name="Floor8PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor8PanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Floor8PanelImage.Name" xml:space="preserve">
+    <value>Floor8PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor8PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor8PanelImage.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;Floor8PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DownFloor7Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DownFloor7Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DownFloor7Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="DownFloor7Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DownFloor7Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 117</value>
+  </data>
+  <data name="DownFloor7Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="DownFloor7Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DownFloor7Button.Name" xml:space="preserve">
+    <value>DownFloor7Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor7Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor7Button.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;DownFloor7Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpFloor7Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="UpFloor7Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="UpFloor7Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="UpFloor7Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpFloor7Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 61</value>
+  </data>
+  <data name="UpFloor7Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="UpFloor7Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UpFloor7Button.Name" xml:space="preserve">
+    <value>UpFloor7Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor7Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor7Button.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;UpFloor7Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Floor7PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor7PanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Floor7PanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 215</value>
+  </data>
+  <data name="Floor7PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor7PanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Floor7PanelImage.Name" xml:space="preserve">
+    <value>Floor7PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor7PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor7PanelImage.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;Floor7PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DownFloor5Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DownFloor5Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DownFloor5Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="DownFloor5Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DownFloor5Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 117</value>
+  </data>
+  <data name="DownFloor5Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="DownFloor5Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DownFloor5Button.Name" xml:space="preserve">
+    <value>DownFloor5Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor5Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor5Button.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;DownFloor5Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpFloor5Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="UpFloor5Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="UpFloor5Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="UpFloor5Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpFloor5Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 61</value>
+  </data>
+  <data name="UpFloor5Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="UpFloor5Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UpFloor5Button.Name" xml:space="preserve">
+    <value>UpFloor5Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor5Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor5Button.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;UpFloor5Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Floor5PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor5PanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Floor5PanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 215</value>
+  </data>
+  <data name="Floor5PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor5PanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Floor5PanelImage.Name" xml:space="preserve">
+    <value>Floor5PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor5PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor5PanelImage.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Floor5PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DownFloor4Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DownFloor4Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DownFloor4Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="DownFloor4Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DownFloor4Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 117</value>
+  </data>
+  <data name="DownFloor4Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="DownFloor4Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DownFloor4Button.Name" xml:space="preserve">
+    <value>DownFloor4Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor4Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor4Button.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;DownFloor4Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpFloor4Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="UpFloor4Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="UpFloor4Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="UpFloor4Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpFloor4Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 61</value>
+  </data>
+  <data name="UpFloor4Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="UpFloor4Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UpFloor4Button.Name" xml:space="preserve">
+    <value>UpFloor4Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor4Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor4Button.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;UpFloor4Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Floor4PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor4PanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Floor4PanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 215</value>
+  </data>
+  <data name="Floor4PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor4PanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Floor4PanelImage.Name" xml:space="preserve">
+    <value>Floor4PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor4PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor4PanelImage.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;Floor4PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DownFloor3Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DownFloor3Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DownFloor3Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="DownFloor3Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DownFloor3Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 117</value>
+  </data>
+  <data name="DownFloor3Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="DownFloor3Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DownFloor3Button.Name" xml:space="preserve">
+    <value>DownFloor3Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor3Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor3Button.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;DownFloor3Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpFloor3Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="UpFloor3Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="UpFloor3Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="UpFloor3Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpFloor3Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 61</value>
+  </data>
+  <data name="UpFloor3Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="UpFloor3Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UpFloor3Button.Name" xml:space="preserve">
+    <value>UpFloor3Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor3Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor3Button.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;UpFloor3Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Floor3PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor3PanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Floor3PanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 215</value>
+  </data>
+  <data name="Floor3PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor3PanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Floor3PanelImage.Name" xml:space="preserve">
+    <value>Floor3PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor3PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor3PanelImage.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;Floor3PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DownFloor2Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DownFloor2Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DownFloor2Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="DownFloor2Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DownFloor2Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 117</value>
+  </data>
+  <data name="DownFloor2Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="DownFloor2Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DownFloor2Button.Name" xml:space="preserve">
+    <value>DownFloor2Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor2Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor2Button.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;DownFloor2Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpFloor2Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="UpFloor2Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="UpFloor2Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="UpFloor2Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpFloor2Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 61</value>
+  </data>
+  <data name="UpFloor2Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="UpFloor2Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UpFloor2Button.Name" xml:space="preserve">
+    <value>UpFloor2Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor2Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor2Button.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;UpFloor2Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Floor2PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor2PanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Floor2PanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 215</value>
+  </data>
+  <data name="Floor2PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor2PanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Floor2PanelImage.Name" xml:space="preserve">
+    <value>Floor2PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor2PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor2PanelImage.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;Floor2PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DownFloor6Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DownFloor6Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DownFloor6Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="DownFloor6Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DownFloor6Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 117</value>
+  </data>
+  <data name="DownFloor6Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="DownFloor6Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DownFloor6Button.Name" xml:space="preserve">
+    <value>DownFloor6Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor6Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor6Button.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;DownFloor6Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpFloor6Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="UpFloor6Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="UpFloor6Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="UpFloor6Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpFloor6Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 61</value>
+  </data>
+  <data name="UpFloor6Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="UpFloor6Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UpFloor6Button.Name" xml:space="preserve">
+    <value>UpFloor6Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor6Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor6Button.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;UpFloor6Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Floor6PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor6PanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Floor6PanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 215</value>
+  </data>
+  <data name="Floor6PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor6PanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Floor6PanelImage.Name" xml:space="preserve">
+    <value>Floor6PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor6PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor6PanelImage.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;Floor6PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="DownFloor1Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DownFloor1Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="DownFloor1Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="DownFloor1Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DownFloor1Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 117</value>
+  </data>
+  <data name="DownFloor1Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="DownFloor1Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;DownFloor1Button.Name" xml:space="preserve">
+    <value>DownFloor1Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor1Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor1Button.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;DownFloor1Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="UpFloor1Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="UpFloor1Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="UpFloor1Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="UpFloor1Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="UpFloor1Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>42, 61</value>
+  </data>
+  <data name="UpFloor1Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="UpFloor1Button.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;UpFloor1Button.Name" xml:space="preserve">
+    <value>UpFloor1Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor1Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor1Button.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;UpFloor1Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="Floor1PanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor1PanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="Floor1PanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 215</value>
+  </data>
+  <data name="Floor1PanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor1PanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;Floor1PanelImage.Name" xml:space="preserve">
+    <value>Floor1PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor1PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor1PanelImage.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Floor1PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="Floor10Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor10Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Floor10Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Floor10Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor10Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 139</value>
+  </data>
+  <data name="Floor10Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="Floor10Button.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Floor10Button.Text" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;Floor10Button.Name" xml:space="preserve">
+    <value>Floor10Button</value>
+  </data>
+  <data name="&gt;&gt;Floor10Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor10Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Floor10Button.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="Floor9Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor9Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Floor9Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Floor9Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor9Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 139</value>
+  </data>
+  <data name="Floor9Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="Floor9Button.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="Floor9Button.Text" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;Floor9Button.Name" xml:space="preserve">
+    <value>Floor9Button</value>
+  </data>
+  <data name="&gt;&gt;Floor9Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor9Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Floor9Button.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="Floor8Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor8Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Floor8Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Floor8Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor8Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 195</value>
+  </data>
+  <data name="Floor8Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="Floor8Button.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="Floor8Button.Text" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;Floor8Button.Name" xml:space="preserve">
+    <value>Floor8Button</value>
+  </data>
+  <data name="&gt;&gt;Floor8Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor8Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Floor8Button.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="Floor7Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor7Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Floor7Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Floor7Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor7Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 195</value>
+  </data>
+  <data name="Floor7Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="Floor7Button.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="Floor7Button.Text" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;Floor7Button.Name" xml:space="preserve">
+    <value>Floor7Button</value>
+  </data>
+  <data name="&gt;&gt;Floor7Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor7Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Floor7Button.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="Floor6Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor6Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Floor6Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Floor6Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor6Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 251</value>
+  </data>
+  <data name="Floor6Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="Floor6Button.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="Floor6Button.Text" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;Floor6Button.Name" xml:space="preserve">
+    <value>Floor6Button</value>
+  </data>
+  <data name="&gt;&gt;Floor6Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor6Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Floor6Button.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="Floor5Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor5Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Floor5Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Floor5Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor5Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 251</value>
+  </data>
+  <data name="Floor5Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="Floor5Button.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="Floor5Button.Text" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;Floor5Button.Name" xml:space="preserve">
+    <value>Floor5Button</value>
+  </data>
+  <data name="&gt;&gt;Floor5Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor5Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Floor5Button.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="Floor4Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor4Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Floor4Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Floor4Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor4Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 307</value>
+  </data>
+  <data name="Floor4Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="Floor4Button.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="Floor4Button.Text" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;Floor4Button.Name" xml:space="preserve">
+    <value>Floor4Button</value>
+  </data>
+  <data name="&gt;&gt;Floor4Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor4Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Floor4Button.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="Floor3Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor3Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Floor3Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Floor3Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor3Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 307</value>
+  </data>
+  <data name="Floor3Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="Floor3Button.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="Floor3Button.Text" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;Floor3Button.Name" xml:space="preserve">
+    <value>Floor3Button</value>
+  </data>
+  <data name="&gt;&gt;Floor3Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor3Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Floor3Button.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="Floor2Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor2Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Floor2Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Floor2Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor2Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 363</value>
+  </data>
+  <data name="Floor2Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="Floor2Button.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="Floor2Button.Text" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Floor2Button.Name" xml:space="preserve">
+    <value>Floor2Button</value>
+  </data>
+  <data name="&gt;&gt;Floor2Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor2Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Floor2Button.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="Floor1Button.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="Floor1Button.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="Floor1Button.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 15.75pt</value>
+  </data>
+  <data name="Floor1Button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="Floor1Button.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 363</value>
+  </data>
+  <data name="Floor1Button.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 55</value>
+  </data>
+  <data name="Floor1Button.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="Floor1Button.Text" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Floor1Button.Name" xml:space="preserve">
+    <value>Floor1Button</value>
+  </data>
+  <data name="&gt;&gt;Floor1Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor1Button.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;Floor1Button.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="DirectionIndicatorImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="DirectionIndicatorImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 41</value>
+  </data>
+  <data name="DirectionIndicatorImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 64</value>
+  </data>
+  <data name="DirectionIndicatorImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="DirectionIndicatorImage.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;DirectionIndicatorImage.Name" xml:space="preserve">
+    <value>DirectionIndicatorImage</value>
+  </data>
+  <data name="&gt;&gt;DirectionIndicatorImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DirectionIndicatorImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DirectionIndicatorImage.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="InternalPanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="InternalPanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 4</value>
+  </data>
+  <data name="InternalPanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 533</value>
+  </data>
+  <data name="InternalPanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="InternalPanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;InternalPanelImage.Name" xml:space="preserve">
+    <value>InternalPanelImage</value>
+  </data>
+  <data name="&gt;&gt;InternalPanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;InternalPanelImage.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;InternalPanelImage.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="OperationPanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OperationPanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, -1</value>
+  </data>
+  <data name="OperationPanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 112</value>
+  </data>
+  <data name="OperationPanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="OperationPanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;OperationPanelImage.Name" xml:space="preserve">
+    <value>OperationPanelImage</value>
+  </data>
+  <data name="&gt;&gt;OperationPanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OperationPanelImage.Parent" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;OperationPanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="OperationText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt</value>
+  </data>
+  <data name="OperationText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="OperationText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 8</value>
+  </data>
+  <data name="OperationText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 35</value>
+  </data>
+  <data name="OperationText.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="OperationText.Text" xml:space="preserve">
+    <value>Modo Operacional</value>
+  </data>
+  <data name="OperationText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;OperationText.Name" xml:space="preserve">
+    <value>OperationText</value>
+  </data>
+  <data name="&gt;&gt;OperationText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;OperationText.Parent" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;OperationText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="panel11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>230, 422</value>
+  </data>
+  <data name="panel11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 111</value>
+  </data>
+  <data name="panel11.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;panel11.Name" xml:space="preserve">
+    <value>panel11</value>
+  </data>
+  <data name="&gt;&gt;panel11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="GabrielText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="GabrielText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="GabrielText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 76</value>
+  </data>
+  <data name="GabrielText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 26</value>
+  </data>
+  <data name="GabrielText.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="GabrielText.Text" xml:space="preserve">
+    <value>Gabriel Totola</value>
+  </data>
+  <data name="GabrielText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;GabrielText.Name" xml:space="preserve">
+    <value>GabrielText</value>
+  </data>
+  <data name="&gt;&gt;GabrielText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GabrielText.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;GabrielText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="EveraldoText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 14pt</value>
+  </data>
+  <data name="EveraldoText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="EveraldoText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 47</value>
+  </data>
+  <data name="EveraldoText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 26</value>
+  </data>
+  <data name="EveraldoText.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="EveraldoText.Text" xml:space="preserve">
+    <value>Everaldo Junior</value>
+  </data>
+  <data name="EveraldoText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;EveraldoText.Name" xml:space="preserve">
+    <value>EveraldoText</value>
+  </data>
+  <data name="&gt;&gt;EveraldoText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EveraldoText.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;EveraldoText.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="StudentsText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 16pt</value>
+  </data>
+  <data name="StudentsText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StudentsText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>16, 8</value>
+  </data>
+  <data name="StudentsText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 35</value>
+  </data>
+  <data name="StudentsText.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="StudentsText.Text" xml:space="preserve">
+    <value>Integrantes</value>
+  </data>
+  <data name="StudentsText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;StudentsText.Name" xml:space="preserve">
+    <value>StudentsText</value>
+  </data>
+  <data name="&gt;&gt;StudentsText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentsText.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;StudentsText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="StudentsPanelImage.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="StudentsPanelImage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, -1</value>
+  </data>
+  <data name="StudentsPanelImage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 112</value>
+  </data>
+  <data name="StudentsPanelImage.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="StudentsPanelImage.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;StudentsPanelImage.Name" xml:space="preserve">
+    <value>StudentsPanelImage</value>
+  </data>
+  <data name="&gt;&gt;StudentsPanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentsPanelImage.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;StudentsPanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 421</value>
+  </data>
+  <data name="panel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 111</value>
+  </data>
+  <data name="panel12.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;panel12.Name" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;panel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2528,6 +2822,9 @@
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>898, 537</value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>

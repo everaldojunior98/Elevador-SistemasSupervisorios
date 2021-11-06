@@ -32,7 +32,32 @@ namespace ElevadorSistemasSupervisorios
 
             DirectionIndicatorImage.Parent = InternalPanelImage;
             DirectionIndicatorImage.BackColor = Color.Transparent;
-            
+
+            //Texto Painel do Modo Operacional
+            OperationText.Parent = OperationPanelImage;
+            OperationText.BackColor = Color.Transparent;
+            OperationText.Font = GetCustomFont(bebasFont, OperationText.Font.Size);
+
+            //CheckBox Painel do Modo Operacional
+            ManualCheckBox.Parent = OperationPanelImage;
+            ManualCheckBox.BackColor = Color.Transparent;
+            ManualCheckBox.Font = GetCustomFont(bebasFont, ManualCheckBox.Font.Size);
+            AutomaticCheckBox.Parent = OperationPanelImage;
+            AutomaticCheckBox.BackColor = Color.Transparent;
+            AutomaticCheckBox.Font = GetCustomFont(bebasFont, AutomaticCheckBox.Font.Size);
+
+            //Painel Integrantes do Trabalho
+            StudentsText.Parent = StudentsPanelImage;
+            StudentsText.BackColor = Color.Transparent;
+            StudentsText.Font = GetCustomFont(bebasFont, StudentsText.Font.Size);
+            EveraldoText.Parent = StudentsPanelImage;
+            EveraldoText.BackColor = Color.Transparent;
+            EveraldoText.Font = GetCustomFont(bebasFont, EveraldoText.Font.Size);
+            GabrielText.Parent = StudentsPanelImage;
+            GabrielText.BackColor = Color.Transparent;
+            GabrielText.Font = GetCustomFont(bebasFont, GabrielText.Font.Size);
+
+
             //Setup dos botões do painel interno
             SetupButton(Floor1Button, InternalPanelImage, () => { FloorIndicatorText.Text = "1"; });
             SetupButton(Floor2Button, InternalPanelImage, () => { FloorIndicatorText.Text = "2"; });

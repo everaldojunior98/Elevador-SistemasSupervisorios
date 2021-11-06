@@ -142,6 +142,9 @@
   <data name="PainelInterno" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PainelInterno.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Retangulo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Retangulo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SetaBaixo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SetaBaixo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
