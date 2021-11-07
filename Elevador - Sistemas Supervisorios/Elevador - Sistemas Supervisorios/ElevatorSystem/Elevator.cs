@@ -12,6 +12,9 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
         //Tempo parado no andar em ms
         private const int TIME_STOPPED_ON_FLOOR = 3000;
 
+        public delegate void OnFloorChangedEventHandler(object source, OnFloorChangedEventArgs args);
+        public event OnFloorChangedEventHandler OnFloorChanged;
+
         private readonly Thread elevatorThread;
         private readonly CancellationTokenSource cancellationToken;
 
@@ -116,6 +119,13 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
                     Debug.WriteLine($"ANDAR: {currentFloor}");
 
                     Thread.Sleep(TIME_BETWEEN_FLOORS);
+
+                    OnFloorChanged?.Invoke(this,
+                        new OnFloorChangedEventArgs
+                        {
+                            Floor = currentFloor, Direction = currentDirection
+                        });
+
                     if (changedRoute)
                         break;
                 }

@@ -863,7 +863,7 @@ namespace ElevadorSistemasSupervisorios
             // DirectionIndicatorImage
             // 
             this.DirectionIndicatorImage.BackColor = System.Drawing.Color.Transparent;
-            this.DirectionIndicatorImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.SetaBaixo;
+            this.DirectionIndicatorImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.SetaCima;
             resources.ApplyResources(this.DirectionIndicatorImage, "DirectionIndicatorImage");
             this.DirectionIndicatorImage.Name = "DirectionIndicatorImage";
             this.DirectionIndicatorImage.TabStop = false;

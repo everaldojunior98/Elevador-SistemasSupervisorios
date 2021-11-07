@@ -136,7 +136,7 @@
     <value>0</value>
   </data>
   <data name="FloorIndicatorText.Text" xml:space="preserve">
-    <value>10</value>
+    <value>1</value>
   </data>
   <data name="FloorIndicatorText.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
     <value>MiddleCenter</value>

@@ -5,6 +5,8 @@ using System.IO;
 using System.Linq;
 using System.Windows.Forms;
 using ElevadorSistemasSupervisorios.ElevatorSystem;
+using ElevadorSistemasSupervisorios.Properties;
+using static ElevadorSistemasSupervisorios.ElevatorSystem.ElevatorUtils;
 
 namespace ElevadorSistemasSupervisorios
 {
@@ -25,6 +27,8 @@ namespace ElevadorSistemasSupervisorios
             InitializeComponent();
 
             elevator = new Elevator();
+            elevator.OnFloorChanged += ElevatorOnFloorChanged;
+
 
             //Carregando as fontes custom
             customFontCollection = new PrivateFontCollection();
@@ -95,6 +99,19 @@ namespace ElevadorSistemasSupervisorios
 
             //Carregas as fontes custom
             FloorIndicatorText.Font = GetCustomFont(lcdFont, FloorIndicatorText.Font.Size);
+        }
+
+        private void ElevatorOnFloorChanged(object source, OnFloorChangedEventArgs args)
+        {
+            FloorIndicatorText.Invoke(new Action(() => FloorIndicatorText.Text = args.Floor.ToString()));
+
+            DirectionIndicatorImage.Invoke(new Action(() =>
+            {
+                var arrow = new Bitmap(args.Direction == ElevatorDirection.UP
+                    ? Resources.SetaCima
+                    : Resources.SetaBaixo);
+                DirectionIndicatorImage.Image = arrow;
+            }));
         }
 
         private void AutomaticCheckBox_CheckedChanged(object sender, EventArgs e)
