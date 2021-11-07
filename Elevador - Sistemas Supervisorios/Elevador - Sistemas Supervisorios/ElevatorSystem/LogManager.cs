@@ -7,20 +7,20 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
     {
         public void Log(int floor)
         {
-            string logFile = $"Log-{DateTime.Now.ToString("dd-MM-yyyy")}.txt";
+            var logFile = $"Log-{DateTime.Now:dd-MM-yyyy}.txt";
 
             if (!File.Exists(logFile))
             {
-                using (StreamWriter sw = File.CreateText(logFile))
+                using (var sw = File.CreateText(logFile))
                 {
-                    sw.WriteLine($"{DateTime.Now.ToString("hh:mm:ss")}: {floor}");
+                    sw.WriteLine($"{DateTime.Now:HH:mm:ss}: {floor}");
                 }
             }
             else
             {
-                using (StreamWriter sw = File.AppendText(logFile))
+                using (var sw = File.AppendText(logFile))
                 {
-                    sw.WriteLine($"{DateTime.Now.ToString("HH:mm:ss")}: {floor}");
+                    sw.WriteLine($"{DateTime.Now:HH:mm:ss}: {floor}");
                 }
             }
         }

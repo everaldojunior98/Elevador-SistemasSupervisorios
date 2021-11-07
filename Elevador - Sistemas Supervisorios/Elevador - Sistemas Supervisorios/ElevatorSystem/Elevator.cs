@@ -26,7 +26,7 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
         private int currentFloor;
 
         private bool changedRoute;
-        private LogManager logManager;
+        private readonly LogManager logManager;
 
         private readonly Queue<int> route;
         private readonly List<int> internalFloors;
