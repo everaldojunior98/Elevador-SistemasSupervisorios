@@ -29,7 +29,6 @@ namespace ElevadorSistemasSupervisorios
             elevator = new Elevator();
             elevator.OnFloorChanged += ElevatorOnFloorChanged;
 
-
             //Carregando as fontes custom
             customFontCollection = new PrivateFontCollection();
             bebasFont = AddFontFile(BebasFontName);
@@ -86,16 +85,16 @@ namespace ElevadorSistemasSupervisorios
             SetupButton(Floor10Button, InternalPanelImage, () => { elevator.RequestFloor(10); });
 
             //Setup dos botões do painel externo
-            SetupFloor(Floor1Text, Floor1PanelImage, UpFloor1Button, DownFloor1Button, () => { }, () => { });
-            SetupFloor(Floor2Text, Floor2PanelImage, UpFloor2Button, DownFloor2Button, () => { }, () => { });
-            SetupFloor(Floor3Text, Floor3PanelImage, UpFloor3Button, DownFloor3Button, () => { }, () => { });
-            SetupFloor(Floor4Text, Floor4PanelImage, UpFloor4Button, DownFloor4Button, () => { }, () => { });
-            SetupFloor(Floor5Text, Floor5PanelImage, UpFloor5Button, DownFloor5Button, () => { }, () => { });
-            SetupFloor(Floor6Text, Floor6PanelImage, UpFloor6Button, DownFloor6Button, () => { }, () => { });
-            SetupFloor(Floor7Text, Floor7PanelImage, UpFloor7Button, DownFloor7Button, () => { }, () => { });
-            SetupFloor(Floor8Text, Floor8PanelImage, UpFloor8Button, DownFloor8Button, () => { }, () => { });
-            SetupFloor(Floor9Text, Floor9PanelImage, UpFloor9Button, DownFloor9Button, () => { }, () => { });
-            SetupFloor(Floor10Text, Floor10PanelImage, UpFloor10Button, DownFloor10Button, () => { }, () => { });
+            SetupFloor(Floor1Text, Floor1PanelImage, UpFloor1Button, null, () => { elevator.RequestFloor(1, ElevatorDirection.UP); }, () => { elevator.RequestFloor(1, ElevatorDirection.DOWN); });
+            SetupFloor(Floor2Text, Floor2PanelImage, UpFloor2Button, DownFloor2Button, () => { elevator.RequestFloor(2, ElevatorDirection.UP); }, () => { elevator.RequestFloor(2, ElevatorDirection.DOWN); });
+            SetupFloor(Floor3Text, Floor3PanelImage, UpFloor3Button, DownFloor3Button, () => { elevator.RequestFloor(3, ElevatorDirection.UP); }, () => { elevator.RequestFloor(3, ElevatorDirection.DOWN); });
+            SetupFloor(Floor4Text, Floor4PanelImage, UpFloor4Button, DownFloor4Button, () => { elevator.RequestFloor(4, ElevatorDirection.UP); }, () => { elevator.RequestFloor(4, ElevatorDirection.DOWN); });
+            SetupFloor(Floor5Text, Floor5PanelImage, UpFloor5Button, DownFloor5Button, () => { elevator.RequestFloor(5, ElevatorDirection.UP); }, () => { elevator.RequestFloor(5, ElevatorDirection.DOWN); });
+            SetupFloor(Floor6Text, Floor6PanelImage, UpFloor6Button, DownFloor6Button, () => { elevator.RequestFloor(6, ElevatorDirection.UP); }, () => { elevator.RequestFloor(6, ElevatorDirection.DOWN); });
+            SetupFloor(Floor7Text, Floor7PanelImage, UpFloor7Button, DownFloor7Button, () => { elevator.RequestFloor(7, ElevatorDirection.UP); }, () => { elevator.RequestFloor(7, ElevatorDirection.DOWN); });
+            SetupFloor(Floor8Text, Floor8PanelImage, UpFloor8Button, DownFloor8Button, () => { elevator.RequestFloor(8, ElevatorDirection.UP); }, () => { elevator.RequestFloor(8, ElevatorDirection.DOWN); });
+            SetupFloor(Floor9Text, Floor9PanelImage, UpFloor9Button, DownFloor9Button, () => { elevator.RequestFloor(9, ElevatorDirection.UP); }, () => { elevator.RequestFloor(9, ElevatorDirection.DOWN); });
+            SetupFloor(Floor10Text, Floor10PanelImage, null, DownFloor10Button, () => { elevator.RequestFloor(10, ElevatorDirection.UP); }, () => { elevator.RequestFloor(10, ElevatorDirection.DOWN); });
 
             //Carregas as fontes custom
             FloorIndicatorText.Font = GetCustomFont(lcdFont, FloorIndicatorText.Font.Size);
@@ -141,8 +140,10 @@ namespace ElevadorSistemasSupervisorios
             floorLabel.Parent = parent;
             floorLabel.BackColor = Color.Transparent;
             floorLabel.Font = GetCustomFont(bebasFont, floorLabel.Font.Size);
-            SetupButton(buttonUp, parent, onClickUp);
-            SetupButton(buttonDown, parent, onClickDown);
+            if(buttonUp != null)
+                SetupButton(buttonUp, parent, onClickUp);
+            if (buttonDown != null)
+                SetupButton(buttonDown, parent, onClickDown);
         }
 
         private void SetupButton(Button button, Control parent, Action onClick)

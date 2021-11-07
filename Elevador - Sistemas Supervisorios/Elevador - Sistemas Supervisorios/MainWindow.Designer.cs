@@ -33,7 +33,6 @@ namespace ElevadorSistemasSupervisorios
             this.FloorIndicatorText = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Floor1Text = new System.Windows.Forms.Label();
-            this.DownFloor1Button = new System.Windows.Forms.Button();
             this.UpFloor1Button = new System.Windows.Forms.Button();
             this.Floor1PanelImage = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -79,7 +78,6 @@ namespace ElevadorSistemasSupervisorios
             this.panel10 = new System.Windows.Forms.Panel();
             this.Floor10Text = new System.Windows.Forms.Label();
             this.DownFloor10Button = new System.Windows.Forms.Button();
-            this.UpFloor10Button = new System.Windows.Forms.Button();
             this.Floor10PanelImage = new System.Windows.Forms.PictureBox();
             this.AutomaticCheckBox = new System.Windows.Forms.CheckBox();
             this.ManualCheckBox = new System.Windows.Forms.CheckBox();
@@ -141,7 +139,6 @@ namespace ElevadorSistemasSupervisorios
             // panel1
             // 
             this.panel1.Controls.Add(this.Floor1Text);
-            this.panel1.Controls.Add(this.DownFloor1Button);
             this.panel1.Controls.Add(this.UpFloor1Button);
             this.panel1.Controls.Add(this.Floor1PanelImage);
             resources.ApplyResources(this.panel1, "panel1");
@@ -153,22 +150,6 @@ namespace ElevadorSistemasSupervisorios
             resources.ApplyResources(this.Floor1Text, "Floor1Text");
             this.Floor1Text.ForeColor = System.Drawing.Color.Black;
             this.Floor1Text.Name = "Floor1Text";
-            // 
-            // DownFloor1Button
-            // 
-            this.DownFloor1Button.BackColor = System.Drawing.Color.Transparent;
-            this.DownFloor1Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
-            resources.ApplyResources(this.DownFloor1Button, "DownFloor1Button");
-            this.DownFloor1Button.CausesValidation = false;
-            this.DownFloor1Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DownFloor1Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.DownFloor1Button.FlatAppearance.BorderSize = 0;
-            this.DownFloor1Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor1Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor1Button.ForeColor = System.Drawing.Color.Black;
-            this.DownFloor1Button.Name = "DownFloor1Button";
-            this.DownFloor1Button.TabStop = false;
-            this.DownFloor1Button.UseVisualStyleBackColor = false;
             // 
             // UpFloor1Button
             // 
@@ -637,7 +618,6 @@ namespace ElevadorSistemasSupervisorios
             // 
             this.panel10.Controls.Add(this.Floor10Text);
             this.panel10.Controls.Add(this.DownFloor10Button);
-            this.panel10.Controls.Add(this.UpFloor10Button);
             this.panel10.Controls.Add(this.Floor10PanelImage);
             resources.ApplyResources(this.panel10, "panel10");
             this.panel10.Name = "panel10";
@@ -664,22 +644,6 @@ namespace ElevadorSistemasSupervisorios
             this.DownFloor10Button.Name = "DownFloor10Button";
             this.DownFloor10Button.TabStop = false;
             this.DownFloor10Button.UseVisualStyleBackColor = false;
-            // 
-            // UpFloor10Button
-            // 
-            this.UpFloor10Button.BackColor = System.Drawing.Color.Transparent;
-            this.UpFloor10Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
-            resources.ApplyResources(this.UpFloor10Button, "UpFloor10Button");
-            this.UpFloor10Button.CausesValidation = false;
-            this.UpFloor10Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpFloor10Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.UpFloor10Button.FlatAppearance.BorderSize = 0;
-            this.UpFloor10Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor10Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor10Button.ForeColor = System.Drawing.Color.Black;
-            this.UpFloor10Button.Name = "UpFloor10Button";
-            this.UpFloor10Button.TabStop = false;
-            this.UpFloor10Button.UseVisualStyleBackColor = false;
             // 
             // Floor10PanelImage
             // 
@@ -1015,7 +979,6 @@ namespace ElevadorSistemasSupervisorios
         private System.Windows.Forms.Button Floor10Button;
         private System.Windows.Forms.Button Floor9Button;
         private System.Windows.Forms.Button UpFloor1Button;
-        private System.Windows.Forms.Button DownFloor1Button;
         private System.Windows.Forms.PictureBox Floor1PanelImage;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label Floor1Text;
@@ -1062,7 +1025,6 @@ namespace ElevadorSistemasSupervisorios
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Label Floor10Text;
         private System.Windows.Forms.Button DownFloor10Button;
-        private System.Windows.Forms.Button UpFloor10Button;
         private System.Windows.Forms.PictureBox Floor10PanelImage;
         private System.Windows.Forms.CheckBox AutomaticCheckBox;
         private System.Windows.Forms.CheckBox ManualCheckBox;
