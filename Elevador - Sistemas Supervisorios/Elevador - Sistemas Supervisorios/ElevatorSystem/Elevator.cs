@@ -26,6 +26,7 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
         private int currentFloor;
 
         private bool changedRoute;
+        private LogManager logManager;
 
         private readonly Queue<int> route;
         private readonly List<int> internalFloors;
@@ -40,6 +41,8 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
             
             currentDirection = ElevatorDirection.UP;
             currentFloor = 1;
+
+            logManager = new LogManager();
 
             cancellationToken = new CancellationTokenSource();
             elevatorThread = new Thread(ElevatorLoop);
@@ -56,6 +59,7 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
         {
             if (!internalFloors.Contains(floor) && floor != currentFloor)
             {
+                logManager.Log(floor);
                 internalFloors.Add(floor);
                 changedRoute = true;
             }
@@ -118,7 +122,14 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
                 if(route.Count == 0)
                 {
                     foreach (var pair in externalFloors)
-                        RequestFloor(pair.Key);
+                    {
+                        if (!internalFloors.Contains(pair.Key) && pair.Key != currentFloor)
+                        {
+                            internalFloors.Add(pair.Key);
+                            changedRoute = true;
+                        }
+                    }
+                        
                     externalFloors.Clear();
 
                     continue;

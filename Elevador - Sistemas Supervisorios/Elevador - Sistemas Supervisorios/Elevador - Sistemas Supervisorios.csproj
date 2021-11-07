@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="ElevatorSystem\Elevator.cs" />
     <Compile Include="ElevatorSystem\ElevatorUtils.cs" />
+    <Compile Include="ElevatorSystem\LogManager.cs" />
     <Compile Include="ElevatorSystem\OnFloorChangedEventArgs.cs" />
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
