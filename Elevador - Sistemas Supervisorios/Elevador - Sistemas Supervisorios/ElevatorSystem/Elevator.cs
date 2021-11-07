@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 using System.Threading;
 using static ElevadorSistemasSupervisorios.ElevatorSystem.ElevatorUtils;
@@ -14,6 +15,9 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
 
         public delegate void OnFloorChangedEventHandler(object source, OnFloorChangedEventArgs args);
         public event OnFloorChangedEventHandler OnFloorChanged;
+
+        public delegate void OnStoppedEventHandler(object source, EventArgs args);
+        public event OnStoppedEventHandler OnStoppedFloor;
 
         private readonly Thread elevatorThread;
         private readonly CancellationTokenSource cancellationToken;
@@ -130,18 +134,19 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
                         currentFloor++;
                     else
                         currentFloor--;
-                    
-                    Thread.Sleep(TIME_BETWEEN_FLOORS);
-
+                                      
                     OnFloorChanged?.Invoke(this,
                         new OnFloorChangedEventArgs
                         {
                             Floor = currentFloor, Direction = currentDirection
                         });
 
+                    Thread.Sleep(TIME_BETWEEN_FLOORS);
+
                     if (externalFloors.ContainsKey(currentFloor) && externalFloors[currentFloor] == currentDirection)
                     {
                         externalFloors.Remove(currentFloor);
+                        OnStoppedFloor?.Invoke(this, new EventArgs());
                         Thread.Sleep(TIME_STOPPED_ON_FLOOR);
                     }
 
@@ -153,6 +158,7 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
                     continue;
                 
                 internalFloors.Remove(floor);
+                OnStoppedFloor?.Invoke(this, new EventArgs());
                 Thread.Sleep(TIME_STOPPED_ON_FLOOR);
             }
         }

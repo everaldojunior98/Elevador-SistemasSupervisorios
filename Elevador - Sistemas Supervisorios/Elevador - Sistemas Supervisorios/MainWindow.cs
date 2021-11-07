@@ -28,6 +28,7 @@ namespace ElevadorSistemasSupervisorios
 
             elevator = new Elevator();
             elevator.OnFloorChanged += ElevatorOnFloorChanged;
+            elevator.OnStoppedFloor += ElevatorOnStoppedFloor;
 
             //Carregando as fontes custom
             customFontCollection = new PrivateFontCollection();
@@ -40,6 +41,7 @@ namespace ElevadorSistemasSupervisorios
 
             DirectionIndicatorImage.Parent = InternalPanelImage;
             DirectionIndicatorImage.BackColor = Color.Transparent;
+            DirectionIndicatorImage.Visible = false;
 
             //Texto Painel do Modo Operacional
             OperationText.Parent = OperationPanelImage;
@@ -100,12 +102,21 @@ namespace ElevadorSistemasSupervisorios
             FloorIndicatorText.Font = GetCustomFont(lcdFont, FloorIndicatorText.Font.Size);
         }
 
+        private void ElevatorOnStoppedFloor(object source, EventArgs args)
+        {
+            DirectionIndicatorImage.Invoke(new Action(() =>
+            {
+                DirectionIndicatorImage.Visible = false;
+            }));
+        }
+
         private void ElevatorOnFloorChanged(object source, OnFloorChangedEventArgs args)
         {
             FloorIndicatorText.Invoke(new Action(() => FloorIndicatorText.Text = args.Floor.ToString()));
 
             DirectionIndicatorImage.Invoke(new Action(() =>
             {
+                DirectionIndicatorImage.Visible = true;
                 var arrow = new Bitmap(args.Direction == ElevatorDirection.UP
                     ? Resources.SetaCima
                     : Resources.SetaBaixo);
