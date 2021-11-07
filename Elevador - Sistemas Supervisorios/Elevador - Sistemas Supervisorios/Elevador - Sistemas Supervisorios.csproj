@@ -57,6 +57,8 @@
     <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ElevatorSystem\Elevator.cs" />
+    <Compile Include="ElevatorSystem\ElevatorUtils.cs" />
     <Compile Include="MainWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,5 +145,6 @@
   <ItemGroup>
     <None Include="Resources\Retangulo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

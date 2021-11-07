@@ -4,6 +4,7 @@ using System.Drawing.Text;
 using System.IO;
 using System.Linq;
 using System.Windows.Forms;
+using ElevadorSistemasSupervisorios.ElevatorSystem;
 
 namespace ElevadorSistemasSupervisorios
 {
@@ -15,11 +16,15 @@ namespace ElevadorSistemasSupervisorios
         private const string LCDFontName = "LLDOT2__";
         private readonly Font lcdFont;
 
-        private PrivateFontCollection customFontCollection;
+        private readonly PrivateFontCollection customFontCollection;
+
+        private readonly Elevator elevator;
 
         public MainWindow()
         {
             InitializeComponent();
+
+            elevator = new Elevator();
 
             //Carregando as fontes custom
             customFontCollection = new PrivateFontCollection();
@@ -50,9 +55,11 @@ namespace ElevadorSistemasSupervisorios
             StudentsText.Parent = StudentsPanelImage;
             StudentsText.BackColor = Color.Transparent;
             StudentsText.Font = GetCustomFont(bebasFont, StudentsText.Font.Size);
+
             EveraldoText.Parent = StudentsPanelImage;
             EveraldoText.BackColor = Color.Transparent;
             EveraldoText.Font = GetCustomFont(bebasFont, EveraldoText.Font.Size);
+
             GabrielText.Parent = StudentsPanelImage;
             GabrielText.BackColor = Color.Transparent;
             GabrielText.Font = GetCustomFont(bebasFont, GabrielText.Font.Size);
@@ -60,19 +67,19 @@ namespace ElevadorSistemasSupervisorios
             //CheckBox Modo Operacional
             AutomaticCheckBox.CheckedChanged += AutomaticCheckBox_CheckedChanged;
             ManualCheckBox.CheckedChanged += ManualCheckBox_CheckedChanged;
-            AutomaticCheckBox.Checked = true;
+            ManualCheckBox.Checked = true;
 
             //Setup dos botões do painel interno
-            SetupButton(Floor1Button, InternalPanelImage, () => { FloorIndicatorText.Text = "1"; });
-            SetupButton(Floor2Button, InternalPanelImage, () => { FloorIndicatorText.Text = "2"; });
-            SetupButton(Floor3Button, InternalPanelImage, () => { FloorIndicatorText.Text = "3"; });
-            SetupButton(Floor4Button, InternalPanelImage, () => { FloorIndicatorText.Text = "4"; });
-            SetupButton(Floor5Button, InternalPanelImage, () => { FloorIndicatorText.Text = "5"; });
-            SetupButton(Floor6Button, InternalPanelImage, () => { FloorIndicatorText.Text = "6"; });
-            SetupButton(Floor7Button, InternalPanelImage, () => { FloorIndicatorText.Text = "7"; });
-            SetupButton(Floor8Button, InternalPanelImage, () => { FloorIndicatorText.Text = "8"; });
-            SetupButton(Floor9Button, InternalPanelImage, () => { FloorIndicatorText.Text = "9"; });
-            SetupButton(Floor10Button, InternalPanelImage, () => { FloorIndicatorText.Text = "10"; });
+            SetupButton(Floor1Button, InternalPanelImage, () => { elevator.RequestFloor(1); });
+            SetupButton(Floor2Button, InternalPanelImage, () => { elevator.RequestFloor(2); });
+            SetupButton(Floor3Button, InternalPanelImage, () => { elevator.RequestFloor(3); });
+            SetupButton(Floor4Button, InternalPanelImage, () => { elevator.RequestFloor(4); });
+            SetupButton(Floor5Button, InternalPanelImage, () => { elevator.RequestFloor(5); });
+            SetupButton(Floor6Button, InternalPanelImage, () => { elevator.RequestFloor(6); });
+            SetupButton(Floor7Button, InternalPanelImage, () => { elevator.RequestFloor(7); });
+            SetupButton(Floor8Button, InternalPanelImage, () => { elevator.RequestFloor(8); });
+            SetupButton(Floor9Button, InternalPanelImage, () => { elevator.RequestFloor(9); });
+            SetupButton(Floor10Button, InternalPanelImage, () => { elevator.RequestFloor(10); });
 
             //Setup dos botões do painel externo
             SetupFloor(Floor1Text, Floor1PanelImage, UpFloor1Button, DownFloor1Button, () => { }, () => { });
@@ -92,18 +99,12 @@ namespace ElevadorSistemasSupervisorios
 
         private void AutomaticCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            if(AutomaticCheckBox.Checked)
-                ManualCheckBox.Checked = false;
-            else
-                ManualCheckBox.Checked = true;
+            ManualCheckBox.Checked = !AutomaticCheckBox.Checked;
         }
 
         private void ManualCheckBox_CheckedChanged(object sender, EventArgs e)
         {
-            if (ManualCheckBox.Checked)
-                AutomaticCheckBox.Checked = false;
-            else
-                AutomaticCheckBox.Checked = true;
+            AutomaticCheckBox.Checked = !ManualCheckBox.Checked;
         }
 
         private Font AddFontFile(string fontName)
@@ -194,6 +195,11 @@ namespace ElevadorSistemasSupervisorios
                     button.Height = (int)(finalHeight + (finalHeight - initialWidth) * percentComplete);
                 }
             };
+        }
+
+        private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            elevator.Dispose();
         }
     }
 }

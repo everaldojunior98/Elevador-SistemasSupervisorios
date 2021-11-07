@@ -33,56 +33,56 @@ namespace ElevadorSistemasSupervisorios
             this.FloorIndicatorText = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Floor1Text = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.Floor6Text = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.Floor2Text = new System.Windows.Forms.Label();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.Floor3Text = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.Floor4Text = new System.Windows.Forms.Label();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.Floor5Text = new System.Windows.Forms.Label();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.Floor7Text = new System.Windows.Forms.Label();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.Floor8Text = new System.Windows.Forms.Label();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.Floor9Text = new System.Windows.Forms.Label();
-            this.panel10 = new System.Windows.Forms.Panel();
-            this.Floor10Text = new System.Windows.Forms.Label();
-            this.AutomaticCheckBox = new System.Windows.Forms.CheckBox();
-            this.ManualCheckBox = new System.Windows.Forms.CheckBox();
-            this.DownFloor10Button = new System.Windows.Forms.Button();
-            this.UpFloor10Button = new System.Windows.Forms.Button();
-            this.Floor10PanelImage = new System.Windows.Forms.PictureBox();
-            this.DownFloor9Button = new System.Windows.Forms.Button();
-            this.UpFloor9Button = new System.Windows.Forms.Button();
-            this.Floor9PanelImage = new System.Windows.Forms.PictureBox();
-            this.DownFloor8Button = new System.Windows.Forms.Button();
-            this.UpFloor8Button = new System.Windows.Forms.Button();
-            this.Floor8PanelImage = new System.Windows.Forms.PictureBox();
-            this.DownFloor7Button = new System.Windows.Forms.Button();
-            this.UpFloor7Button = new System.Windows.Forms.Button();
-            this.Floor7PanelImage = new System.Windows.Forms.PictureBox();
-            this.DownFloor5Button = new System.Windows.Forms.Button();
-            this.UpFloor5Button = new System.Windows.Forms.Button();
-            this.Floor5PanelImage = new System.Windows.Forms.PictureBox();
-            this.DownFloor4Button = new System.Windows.Forms.Button();
-            this.UpFloor4Button = new System.Windows.Forms.Button();
-            this.Floor4PanelImage = new System.Windows.Forms.PictureBox();
-            this.DownFloor3Button = new System.Windows.Forms.Button();
-            this.UpFloor3Button = new System.Windows.Forms.Button();
-            this.Floor3PanelImage = new System.Windows.Forms.PictureBox();
-            this.DownFloor2Button = new System.Windows.Forms.Button();
-            this.UpFloor2Button = new System.Windows.Forms.Button();
-            this.Floor2PanelImage = new System.Windows.Forms.PictureBox();
-            this.DownFloor6Button = new System.Windows.Forms.Button();
-            this.UpFloor6Button = new System.Windows.Forms.Button();
-            this.Floor6PanelImage = new System.Windows.Forms.PictureBox();
             this.DownFloor1Button = new System.Windows.Forms.Button();
             this.UpFloor1Button = new System.Windows.Forms.Button();
             this.Floor1PanelImage = new System.Windows.Forms.PictureBox();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.Floor6Text = new System.Windows.Forms.Label();
+            this.DownFloor6Button = new System.Windows.Forms.Button();
+            this.UpFloor6Button = new System.Windows.Forms.Button();
+            this.Floor6PanelImage = new System.Windows.Forms.PictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.Floor2Text = new System.Windows.Forms.Label();
+            this.DownFloor2Button = new System.Windows.Forms.Button();
+            this.UpFloor2Button = new System.Windows.Forms.Button();
+            this.Floor2PanelImage = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.Floor3Text = new System.Windows.Forms.Label();
+            this.DownFloor3Button = new System.Windows.Forms.Button();
+            this.UpFloor3Button = new System.Windows.Forms.Button();
+            this.Floor3PanelImage = new System.Windows.Forms.PictureBox();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.Floor4Text = new System.Windows.Forms.Label();
+            this.DownFloor4Button = new System.Windows.Forms.Button();
+            this.UpFloor4Button = new System.Windows.Forms.Button();
+            this.Floor4PanelImage = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.Floor5Text = new System.Windows.Forms.Label();
+            this.DownFloor5Button = new System.Windows.Forms.Button();
+            this.UpFloor5Button = new System.Windows.Forms.Button();
+            this.Floor5PanelImage = new System.Windows.Forms.PictureBox();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.Floor7Text = new System.Windows.Forms.Label();
+            this.DownFloor7Button = new System.Windows.Forms.Button();
+            this.UpFloor7Button = new System.Windows.Forms.Button();
+            this.Floor7PanelImage = new System.Windows.Forms.PictureBox();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.Floor8Text = new System.Windows.Forms.Label();
+            this.DownFloor8Button = new System.Windows.Forms.Button();
+            this.UpFloor8Button = new System.Windows.Forms.Button();
+            this.Floor8PanelImage = new System.Windows.Forms.PictureBox();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.Floor9Text = new System.Windows.Forms.Label();
+            this.DownFloor9Button = new System.Windows.Forms.Button();
+            this.UpFloor9Button = new System.Windows.Forms.Button();
+            this.Floor9PanelImage = new System.Windows.Forms.PictureBox();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.Floor10Text = new System.Windows.Forms.Label();
+            this.DownFloor10Button = new System.Windows.Forms.Button();
+            this.UpFloor10Button = new System.Windows.Forms.Button();
+            this.Floor10PanelImage = new System.Windows.Forms.PictureBox();
+            this.AutomaticCheckBox = new System.Windows.Forms.CheckBox();
+            this.ManualCheckBox = new System.Windows.Forms.CheckBox();
             this.Floor10Button = new System.Windows.Forms.Button();
             this.Floor9Button = new System.Windows.Forms.Button();
             this.Floor8Button = new System.Windows.Forms.Button();
@@ -99,30 +99,30 @@ namespace ElevadorSistemasSupervisorios
             this.OperationText = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
+            this.GabrielText = new System.Windows.Forms.Label();
+            this.EveraldoText = new System.Windows.Forms.Label();
             this.StudentsText = new System.Windows.Forms.Label();
             this.StudentsPanelImage = new System.Windows.Forms.PictureBox();
-            this.EveraldoText = new System.Windows.Forms.Label();
-            this.GabrielText = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Floor1PanelImage)).BeginInit();
             this.panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Floor6PanelImage)).BeginInit();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Floor2PanelImage)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Floor3PanelImage)).BeginInit();
             this.panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Floor4PanelImage)).BeginInit();
             this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Floor5PanelImage)).BeginInit();
             this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Floor7PanelImage)).BeginInit();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Floor8PanelImage)).BeginInit();
             this.panel9.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.Floor9PanelImage)).BeginInit();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Floor10PanelImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor9PanelImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor8PanelImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor7PanelImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor5PanelImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor4PanelImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor3PanelImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor2PanelImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor6PanelImage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor1PanelImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DirectionIndicatorImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.InternalPanelImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.OperationPanelImage)).BeginInit();
@@ -154,6 +154,45 @@ namespace ElevadorSistemasSupervisorios
             this.Floor1Text.ForeColor = System.Drawing.Color.Black;
             this.Floor1Text.Name = "Floor1Text";
             // 
+            // DownFloor1Button
+            // 
+            this.DownFloor1Button.BackColor = System.Drawing.Color.Transparent;
+            this.DownFloor1Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
+            resources.ApplyResources(this.DownFloor1Button, "DownFloor1Button");
+            this.DownFloor1Button.CausesValidation = false;
+            this.DownFloor1Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DownFloor1Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.DownFloor1Button.FlatAppearance.BorderSize = 0;
+            this.DownFloor1Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor1Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor1Button.ForeColor = System.Drawing.Color.Black;
+            this.DownFloor1Button.Name = "DownFloor1Button";
+            this.DownFloor1Button.TabStop = false;
+            this.DownFloor1Button.UseVisualStyleBackColor = false;
+            // 
+            // UpFloor1Button
+            // 
+            this.UpFloor1Button.BackColor = System.Drawing.Color.Transparent;
+            this.UpFloor1Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
+            resources.ApplyResources(this.UpFloor1Button, "UpFloor1Button");
+            this.UpFloor1Button.CausesValidation = false;
+            this.UpFloor1Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpFloor1Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.UpFloor1Button.FlatAppearance.BorderSize = 0;
+            this.UpFloor1Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor1Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor1Button.ForeColor = System.Drawing.Color.Black;
+            this.UpFloor1Button.Name = "UpFloor1Button";
+            this.UpFloor1Button.TabStop = false;
+            this.UpFloor1Button.UseVisualStyleBackColor = false;
+            // 
+            // Floor1PanelImage
+            // 
+            this.Floor1PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
+            resources.ApplyResources(this.Floor1PanelImage, "Floor1PanelImage");
+            this.Floor1PanelImage.Name = "Floor1PanelImage";
+            this.Floor1PanelImage.TabStop = false;
+            // 
             // panel2
             // 
             this.panel2.Controls.Add(this.Floor6Text);
@@ -169,458 +208,6 @@ namespace ElevadorSistemasSupervisorios
             resources.ApplyResources(this.Floor6Text, "Floor6Text");
             this.Floor6Text.ForeColor = System.Drawing.Color.Black;
             this.Floor6Text.Name = "Floor6Text";
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.Floor2Text);
-            this.panel3.Controls.Add(this.DownFloor2Button);
-            this.panel3.Controls.Add(this.UpFloor2Button);
-            this.panel3.Controls.Add(this.Floor2PanelImage);
-            resources.ApplyResources(this.panel3, "panel3");
-            this.panel3.Name = "panel3";
-            // 
-            // Floor2Text
-            // 
-            this.Floor2Text.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.Floor2Text, "Floor2Text");
-            this.Floor2Text.ForeColor = System.Drawing.Color.Black;
-            this.Floor2Text.Name = "Floor2Text";
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.Floor3Text);
-            this.panel4.Controls.Add(this.DownFloor3Button);
-            this.panel4.Controls.Add(this.UpFloor3Button);
-            this.panel4.Controls.Add(this.Floor3PanelImage);
-            resources.ApplyResources(this.panel4, "panel4");
-            this.panel4.Name = "panel4";
-            // 
-            // Floor3Text
-            // 
-            this.Floor3Text.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.Floor3Text, "Floor3Text");
-            this.Floor3Text.ForeColor = System.Drawing.Color.Black;
-            this.Floor3Text.Name = "Floor3Text";
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.Floor4Text);
-            this.panel5.Controls.Add(this.DownFloor4Button);
-            this.panel5.Controls.Add(this.UpFloor4Button);
-            this.panel5.Controls.Add(this.Floor4PanelImage);
-            resources.ApplyResources(this.panel5, "panel5");
-            this.panel5.Name = "panel5";
-            // 
-            // Floor4Text
-            // 
-            this.Floor4Text.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.Floor4Text, "Floor4Text");
-            this.Floor4Text.ForeColor = System.Drawing.Color.Black;
-            this.Floor4Text.Name = "Floor4Text";
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.Floor5Text);
-            this.panel6.Controls.Add(this.DownFloor5Button);
-            this.panel6.Controls.Add(this.UpFloor5Button);
-            this.panel6.Controls.Add(this.Floor5PanelImage);
-            resources.ApplyResources(this.panel6, "panel6");
-            this.panel6.Name = "panel6";
-            // 
-            // Floor5Text
-            // 
-            this.Floor5Text.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.Floor5Text, "Floor5Text");
-            this.Floor5Text.ForeColor = System.Drawing.Color.Black;
-            this.Floor5Text.Name = "Floor5Text";
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.Floor7Text);
-            this.panel7.Controls.Add(this.DownFloor7Button);
-            this.panel7.Controls.Add(this.UpFloor7Button);
-            this.panel7.Controls.Add(this.Floor7PanelImage);
-            resources.ApplyResources(this.panel7, "panel7");
-            this.panel7.Name = "panel7";
-            // 
-            // Floor7Text
-            // 
-            this.Floor7Text.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.Floor7Text, "Floor7Text");
-            this.Floor7Text.ForeColor = System.Drawing.Color.Black;
-            this.Floor7Text.Name = "Floor7Text";
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.Floor8Text);
-            this.panel8.Controls.Add(this.DownFloor8Button);
-            this.panel8.Controls.Add(this.UpFloor8Button);
-            this.panel8.Controls.Add(this.Floor8PanelImage);
-            resources.ApplyResources(this.panel8, "panel8");
-            this.panel8.Name = "panel8";
-            // 
-            // Floor8Text
-            // 
-            this.Floor8Text.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.Floor8Text, "Floor8Text");
-            this.Floor8Text.ForeColor = System.Drawing.Color.Black;
-            this.Floor8Text.Name = "Floor8Text";
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.Floor9Text);
-            this.panel9.Controls.Add(this.DownFloor9Button);
-            this.panel9.Controls.Add(this.UpFloor9Button);
-            this.panel9.Controls.Add(this.Floor9PanelImage);
-            resources.ApplyResources(this.panel9, "panel9");
-            this.panel9.Name = "panel9";
-            // 
-            // Floor9Text
-            // 
-            this.Floor9Text.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.Floor9Text, "Floor9Text");
-            this.Floor9Text.ForeColor = System.Drawing.Color.Black;
-            this.Floor9Text.Name = "Floor9Text";
-            // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.Floor10Text);
-            this.panel10.Controls.Add(this.DownFloor10Button);
-            this.panel10.Controls.Add(this.UpFloor10Button);
-            this.panel10.Controls.Add(this.Floor10PanelImage);
-            resources.ApplyResources(this.panel10, "panel10");
-            this.panel10.Name = "panel10";
-            // 
-            // Floor10Text
-            // 
-            this.Floor10Text.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.Floor10Text, "Floor10Text");
-            this.Floor10Text.ForeColor = System.Drawing.Color.Black;
-            this.Floor10Text.Name = "Floor10Text";
-            // 
-            // AutomaticCheckBox
-            // 
-            resources.ApplyResources(this.AutomaticCheckBox, "AutomaticCheckBox");
-            this.AutomaticCheckBox.Name = "AutomaticCheckBox";
-            this.AutomaticCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // ManualCheckBox
-            // 
-            resources.ApplyResources(this.ManualCheckBox, "ManualCheckBox");
-            this.ManualCheckBox.Name = "ManualCheckBox";
-            this.ManualCheckBox.UseVisualStyleBackColor = true;
-            // 
-            // DownFloor10Button
-            // 
-            this.DownFloor10Button.BackColor = System.Drawing.Color.Transparent;
-            this.DownFloor10Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
-            resources.ApplyResources(this.DownFloor10Button, "DownFloor10Button");
-            this.DownFloor10Button.CausesValidation = false;
-            this.DownFloor10Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DownFloor10Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.DownFloor10Button.FlatAppearance.BorderSize = 0;
-            this.DownFloor10Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor10Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor10Button.ForeColor = System.Drawing.Color.Black;
-            this.DownFloor10Button.Name = "DownFloor10Button";
-            this.DownFloor10Button.TabStop = false;
-            this.DownFloor10Button.UseVisualStyleBackColor = false;
-            // 
-            // UpFloor10Button
-            // 
-            this.UpFloor10Button.BackColor = System.Drawing.Color.Transparent;
-            this.UpFloor10Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
-            resources.ApplyResources(this.UpFloor10Button, "UpFloor10Button");
-            this.UpFloor10Button.CausesValidation = false;
-            this.UpFloor10Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpFloor10Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.UpFloor10Button.FlatAppearance.BorderSize = 0;
-            this.UpFloor10Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor10Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor10Button.ForeColor = System.Drawing.Color.Black;
-            this.UpFloor10Button.Name = "UpFloor10Button";
-            this.UpFloor10Button.TabStop = false;
-            this.UpFloor10Button.UseVisualStyleBackColor = false;
-            // 
-            // Floor10PanelImage
-            // 
-            this.Floor10PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
-            resources.ApplyResources(this.Floor10PanelImage, "Floor10PanelImage");
-            this.Floor10PanelImage.Name = "Floor10PanelImage";
-            this.Floor10PanelImage.TabStop = false;
-            // 
-            // DownFloor9Button
-            // 
-            this.DownFloor9Button.BackColor = System.Drawing.Color.Transparent;
-            this.DownFloor9Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
-            resources.ApplyResources(this.DownFloor9Button, "DownFloor9Button");
-            this.DownFloor9Button.CausesValidation = false;
-            this.DownFloor9Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DownFloor9Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.DownFloor9Button.FlatAppearance.BorderSize = 0;
-            this.DownFloor9Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor9Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor9Button.ForeColor = System.Drawing.Color.Black;
-            this.DownFloor9Button.Name = "DownFloor9Button";
-            this.DownFloor9Button.TabStop = false;
-            this.DownFloor9Button.UseVisualStyleBackColor = false;
-            // 
-            // UpFloor9Button
-            // 
-            this.UpFloor9Button.BackColor = System.Drawing.Color.Transparent;
-            this.UpFloor9Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
-            resources.ApplyResources(this.UpFloor9Button, "UpFloor9Button");
-            this.UpFloor9Button.CausesValidation = false;
-            this.UpFloor9Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpFloor9Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.UpFloor9Button.FlatAppearance.BorderSize = 0;
-            this.UpFloor9Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor9Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor9Button.ForeColor = System.Drawing.Color.Black;
-            this.UpFloor9Button.Name = "UpFloor9Button";
-            this.UpFloor9Button.TabStop = false;
-            this.UpFloor9Button.UseVisualStyleBackColor = false;
-            // 
-            // Floor9PanelImage
-            // 
-            this.Floor9PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
-            resources.ApplyResources(this.Floor9PanelImage, "Floor9PanelImage");
-            this.Floor9PanelImage.Name = "Floor9PanelImage";
-            this.Floor9PanelImage.TabStop = false;
-            // 
-            // DownFloor8Button
-            // 
-            this.DownFloor8Button.BackColor = System.Drawing.Color.Transparent;
-            this.DownFloor8Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
-            resources.ApplyResources(this.DownFloor8Button, "DownFloor8Button");
-            this.DownFloor8Button.CausesValidation = false;
-            this.DownFloor8Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DownFloor8Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.DownFloor8Button.FlatAppearance.BorderSize = 0;
-            this.DownFloor8Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor8Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor8Button.ForeColor = System.Drawing.Color.Black;
-            this.DownFloor8Button.Name = "DownFloor8Button";
-            this.DownFloor8Button.TabStop = false;
-            this.DownFloor8Button.UseVisualStyleBackColor = false;
-            // 
-            // UpFloor8Button
-            // 
-            this.UpFloor8Button.BackColor = System.Drawing.Color.Transparent;
-            this.UpFloor8Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
-            resources.ApplyResources(this.UpFloor8Button, "UpFloor8Button");
-            this.UpFloor8Button.CausesValidation = false;
-            this.UpFloor8Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpFloor8Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.UpFloor8Button.FlatAppearance.BorderSize = 0;
-            this.UpFloor8Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor8Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor8Button.ForeColor = System.Drawing.Color.Black;
-            this.UpFloor8Button.Name = "UpFloor8Button";
-            this.UpFloor8Button.TabStop = false;
-            this.UpFloor8Button.UseVisualStyleBackColor = false;
-            // 
-            // Floor8PanelImage
-            // 
-            this.Floor8PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
-            resources.ApplyResources(this.Floor8PanelImage, "Floor8PanelImage");
-            this.Floor8PanelImage.Name = "Floor8PanelImage";
-            this.Floor8PanelImage.TabStop = false;
-            // 
-            // DownFloor7Button
-            // 
-            this.DownFloor7Button.BackColor = System.Drawing.Color.Transparent;
-            this.DownFloor7Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
-            resources.ApplyResources(this.DownFloor7Button, "DownFloor7Button");
-            this.DownFloor7Button.CausesValidation = false;
-            this.DownFloor7Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DownFloor7Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.DownFloor7Button.FlatAppearance.BorderSize = 0;
-            this.DownFloor7Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor7Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor7Button.ForeColor = System.Drawing.Color.Black;
-            this.DownFloor7Button.Name = "DownFloor7Button";
-            this.DownFloor7Button.TabStop = false;
-            this.DownFloor7Button.UseVisualStyleBackColor = false;
-            // 
-            // UpFloor7Button
-            // 
-            this.UpFloor7Button.BackColor = System.Drawing.Color.Transparent;
-            this.UpFloor7Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
-            resources.ApplyResources(this.UpFloor7Button, "UpFloor7Button");
-            this.UpFloor7Button.CausesValidation = false;
-            this.UpFloor7Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpFloor7Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.UpFloor7Button.FlatAppearance.BorderSize = 0;
-            this.UpFloor7Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor7Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor7Button.ForeColor = System.Drawing.Color.Black;
-            this.UpFloor7Button.Name = "UpFloor7Button";
-            this.UpFloor7Button.TabStop = false;
-            this.UpFloor7Button.UseVisualStyleBackColor = false;
-            // 
-            // Floor7PanelImage
-            // 
-            this.Floor7PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
-            resources.ApplyResources(this.Floor7PanelImage, "Floor7PanelImage");
-            this.Floor7PanelImage.Name = "Floor7PanelImage";
-            this.Floor7PanelImage.TabStop = false;
-            // 
-            // DownFloor5Button
-            // 
-            this.DownFloor5Button.BackColor = System.Drawing.Color.Transparent;
-            this.DownFloor5Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
-            resources.ApplyResources(this.DownFloor5Button, "DownFloor5Button");
-            this.DownFloor5Button.CausesValidation = false;
-            this.DownFloor5Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DownFloor5Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.DownFloor5Button.FlatAppearance.BorderSize = 0;
-            this.DownFloor5Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor5Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor5Button.ForeColor = System.Drawing.Color.Black;
-            this.DownFloor5Button.Name = "DownFloor5Button";
-            this.DownFloor5Button.TabStop = false;
-            this.DownFloor5Button.UseVisualStyleBackColor = false;
-            // 
-            // UpFloor5Button
-            // 
-            this.UpFloor5Button.BackColor = System.Drawing.Color.Transparent;
-            this.UpFloor5Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
-            resources.ApplyResources(this.UpFloor5Button, "UpFloor5Button");
-            this.UpFloor5Button.CausesValidation = false;
-            this.UpFloor5Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpFloor5Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.UpFloor5Button.FlatAppearance.BorderSize = 0;
-            this.UpFloor5Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor5Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor5Button.ForeColor = System.Drawing.Color.Black;
-            this.UpFloor5Button.Name = "UpFloor5Button";
-            this.UpFloor5Button.TabStop = false;
-            this.UpFloor5Button.UseVisualStyleBackColor = false;
-            // 
-            // Floor5PanelImage
-            // 
-            this.Floor5PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
-            resources.ApplyResources(this.Floor5PanelImage, "Floor5PanelImage");
-            this.Floor5PanelImage.Name = "Floor5PanelImage";
-            this.Floor5PanelImage.TabStop = false;
-            // 
-            // DownFloor4Button
-            // 
-            this.DownFloor4Button.BackColor = System.Drawing.Color.Transparent;
-            this.DownFloor4Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
-            resources.ApplyResources(this.DownFloor4Button, "DownFloor4Button");
-            this.DownFloor4Button.CausesValidation = false;
-            this.DownFloor4Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DownFloor4Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.DownFloor4Button.FlatAppearance.BorderSize = 0;
-            this.DownFloor4Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor4Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor4Button.ForeColor = System.Drawing.Color.Black;
-            this.DownFloor4Button.Name = "DownFloor4Button";
-            this.DownFloor4Button.TabStop = false;
-            this.DownFloor4Button.UseVisualStyleBackColor = false;
-            // 
-            // UpFloor4Button
-            // 
-            this.UpFloor4Button.BackColor = System.Drawing.Color.Transparent;
-            this.UpFloor4Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
-            resources.ApplyResources(this.UpFloor4Button, "UpFloor4Button");
-            this.UpFloor4Button.CausesValidation = false;
-            this.UpFloor4Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpFloor4Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.UpFloor4Button.FlatAppearance.BorderSize = 0;
-            this.UpFloor4Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor4Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor4Button.ForeColor = System.Drawing.Color.Black;
-            this.UpFloor4Button.Name = "UpFloor4Button";
-            this.UpFloor4Button.TabStop = false;
-            this.UpFloor4Button.UseVisualStyleBackColor = false;
-            // 
-            // Floor4PanelImage
-            // 
-            this.Floor4PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
-            resources.ApplyResources(this.Floor4PanelImage, "Floor4PanelImage");
-            this.Floor4PanelImage.Name = "Floor4PanelImage";
-            this.Floor4PanelImage.TabStop = false;
-            // 
-            // DownFloor3Button
-            // 
-            this.DownFloor3Button.BackColor = System.Drawing.Color.Transparent;
-            this.DownFloor3Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
-            resources.ApplyResources(this.DownFloor3Button, "DownFloor3Button");
-            this.DownFloor3Button.CausesValidation = false;
-            this.DownFloor3Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DownFloor3Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.DownFloor3Button.FlatAppearance.BorderSize = 0;
-            this.DownFloor3Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor3Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor3Button.ForeColor = System.Drawing.Color.Black;
-            this.DownFloor3Button.Name = "DownFloor3Button";
-            this.DownFloor3Button.TabStop = false;
-            this.DownFloor3Button.UseVisualStyleBackColor = false;
-            // 
-            // UpFloor3Button
-            // 
-            this.UpFloor3Button.BackColor = System.Drawing.Color.Transparent;
-            this.UpFloor3Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
-            resources.ApplyResources(this.UpFloor3Button, "UpFloor3Button");
-            this.UpFloor3Button.CausesValidation = false;
-            this.UpFloor3Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpFloor3Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.UpFloor3Button.FlatAppearance.BorderSize = 0;
-            this.UpFloor3Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor3Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor3Button.ForeColor = System.Drawing.Color.Black;
-            this.UpFloor3Button.Name = "UpFloor3Button";
-            this.UpFloor3Button.TabStop = false;
-            this.UpFloor3Button.UseVisualStyleBackColor = false;
-            // 
-            // Floor3PanelImage
-            // 
-            this.Floor3PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
-            resources.ApplyResources(this.Floor3PanelImage, "Floor3PanelImage");
-            this.Floor3PanelImage.Name = "Floor3PanelImage";
-            this.Floor3PanelImage.TabStop = false;
-            // 
-            // DownFloor2Button
-            // 
-            this.DownFloor2Button.BackColor = System.Drawing.Color.Transparent;
-            this.DownFloor2Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
-            resources.ApplyResources(this.DownFloor2Button, "DownFloor2Button");
-            this.DownFloor2Button.CausesValidation = false;
-            this.DownFloor2Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DownFloor2Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.DownFloor2Button.FlatAppearance.BorderSize = 0;
-            this.DownFloor2Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor2Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor2Button.ForeColor = System.Drawing.Color.Black;
-            this.DownFloor2Button.Name = "DownFloor2Button";
-            this.DownFloor2Button.TabStop = false;
-            this.DownFloor2Button.UseVisualStyleBackColor = false;
-            // 
-            // UpFloor2Button
-            // 
-            this.UpFloor2Button.BackColor = System.Drawing.Color.Transparent;
-            this.UpFloor2Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
-            resources.ApplyResources(this.UpFloor2Button, "UpFloor2Button");
-            this.UpFloor2Button.CausesValidation = false;
-            this.UpFloor2Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpFloor2Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.UpFloor2Button.FlatAppearance.BorderSize = 0;
-            this.UpFloor2Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor2Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor2Button.ForeColor = System.Drawing.Color.Black;
-            this.UpFloor2Button.Name = "UpFloor2Button";
-            this.UpFloor2Button.TabStop = false;
-            this.UpFloor2Button.UseVisualStyleBackColor = false;
-            // 
-            // Floor2PanelImage
-            // 
-            this.Floor2PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
-            resources.ApplyResources(this.Floor2PanelImage, "Floor2PanelImage");
-            this.Floor2PanelImage.Name = "Floor2PanelImage";
-            this.Floor2PanelImage.TabStop = false;
             // 
             // DownFloor6Button
             // 
@@ -661,44 +248,457 @@ namespace ElevadorSistemasSupervisorios
             this.Floor6PanelImage.Name = "Floor6PanelImage";
             this.Floor6PanelImage.TabStop = false;
             // 
-            // DownFloor1Button
+            // panel3
             // 
-            this.DownFloor1Button.BackColor = System.Drawing.Color.Transparent;
-            this.DownFloor1Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
-            resources.ApplyResources(this.DownFloor1Button, "DownFloor1Button");
-            this.DownFloor1Button.CausesValidation = false;
-            this.DownFloor1Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.DownFloor1Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.DownFloor1Button.FlatAppearance.BorderSize = 0;
-            this.DownFloor1Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor1Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.DownFloor1Button.ForeColor = System.Drawing.Color.Black;
-            this.DownFloor1Button.Name = "DownFloor1Button";
-            this.DownFloor1Button.TabStop = false;
-            this.DownFloor1Button.UseVisualStyleBackColor = false;
+            this.panel3.Controls.Add(this.Floor2Text);
+            this.panel3.Controls.Add(this.DownFloor2Button);
+            this.panel3.Controls.Add(this.UpFloor2Button);
+            this.panel3.Controls.Add(this.Floor2PanelImage);
+            resources.ApplyResources(this.panel3, "panel3");
+            this.panel3.Name = "panel3";
             // 
-            // UpFloor1Button
+            // Floor2Text
             // 
-            this.UpFloor1Button.BackColor = System.Drawing.Color.Transparent;
-            this.UpFloor1Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
-            resources.ApplyResources(this.UpFloor1Button, "UpFloor1Button");
-            this.UpFloor1Button.CausesValidation = false;
-            this.UpFloor1Button.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.UpFloor1Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.UpFloor1Button.FlatAppearance.BorderSize = 0;
-            this.UpFloor1Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor1Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.UpFloor1Button.ForeColor = System.Drawing.Color.Black;
-            this.UpFloor1Button.Name = "UpFloor1Button";
-            this.UpFloor1Button.TabStop = false;
-            this.UpFloor1Button.UseVisualStyleBackColor = false;
+            this.Floor2Text.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Floor2Text, "Floor2Text");
+            this.Floor2Text.ForeColor = System.Drawing.Color.Black;
+            this.Floor2Text.Name = "Floor2Text";
             // 
-            // Floor1PanelImage
+            // DownFloor2Button
             // 
-            this.Floor1PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
-            resources.ApplyResources(this.Floor1PanelImage, "Floor1PanelImage");
-            this.Floor1PanelImage.Name = "Floor1PanelImage";
-            this.Floor1PanelImage.TabStop = false;
+            this.DownFloor2Button.BackColor = System.Drawing.Color.Transparent;
+            this.DownFloor2Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
+            resources.ApplyResources(this.DownFloor2Button, "DownFloor2Button");
+            this.DownFloor2Button.CausesValidation = false;
+            this.DownFloor2Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DownFloor2Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.DownFloor2Button.FlatAppearance.BorderSize = 0;
+            this.DownFloor2Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor2Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor2Button.ForeColor = System.Drawing.Color.Black;
+            this.DownFloor2Button.Name = "DownFloor2Button";
+            this.DownFloor2Button.TabStop = false;
+            this.DownFloor2Button.UseVisualStyleBackColor = false;
+            // 
+            // UpFloor2Button
+            // 
+            this.UpFloor2Button.BackColor = System.Drawing.Color.Transparent;
+            this.UpFloor2Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
+            resources.ApplyResources(this.UpFloor2Button, "UpFloor2Button");
+            this.UpFloor2Button.CausesValidation = false;
+            this.UpFloor2Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpFloor2Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.UpFloor2Button.FlatAppearance.BorderSize = 0;
+            this.UpFloor2Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor2Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor2Button.ForeColor = System.Drawing.Color.Black;
+            this.UpFloor2Button.Name = "UpFloor2Button";
+            this.UpFloor2Button.TabStop = false;
+            this.UpFloor2Button.UseVisualStyleBackColor = false;
+            // 
+            // Floor2PanelImage
+            // 
+            this.Floor2PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
+            resources.ApplyResources(this.Floor2PanelImage, "Floor2PanelImage");
+            this.Floor2PanelImage.Name = "Floor2PanelImage";
+            this.Floor2PanelImage.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.Floor3Text);
+            this.panel4.Controls.Add(this.DownFloor3Button);
+            this.panel4.Controls.Add(this.UpFloor3Button);
+            this.panel4.Controls.Add(this.Floor3PanelImage);
+            resources.ApplyResources(this.panel4, "panel4");
+            this.panel4.Name = "panel4";
+            // 
+            // Floor3Text
+            // 
+            this.Floor3Text.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Floor3Text, "Floor3Text");
+            this.Floor3Text.ForeColor = System.Drawing.Color.Black;
+            this.Floor3Text.Name = "Floor3Text";
+            // 
+            // DownFloor3Button
+            // 
+            this.DownFloor3Button.BackColor = System.Drawing.Color.Transparent;
+            this.DownFloor3Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
+            resources.ApplyResources(this.DownFloor3Button, "DownFloor3Button");
+            this.DownFloor3Button.CausesValidation = false;
+            this.DownFloor3Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DownFloor3Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.DownFloor3Button.FlatAppearance.BorderSize = 0;
+            this.DownFloor3Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor3Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor3Button.ForeColor = System.Drawing.Color.Black;
+            this.DownFloor3Button.Name = "DownFloor3Button";
+            this.DownFloor3Button.TabStop = false;
+            this.DownFloor3Button.UseVisualStyleBackColor = false;
+            // 
+            // UpFloor3Button
+            // 
+            this.UpFloor3Button.BackColor = System.Drawing.Color.Transparent;
+            this.UpFloor3Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
+            resources.ApplyResources(this.UpFloor3Button, "UpFloor3Button");
+            this.UpFloor3Button.CausesValidation = false;
+            this.UpFloor3Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpFloor3Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.UpFloor3Button.FlatAppearance.BorderSize = 0;
+            this.UpFloor3Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor3Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor3Button.ForeColor = System.Drawing.Color.Black;
+            this.UpFloor3Button.Name = "UpFloor3Button";
+            this.UpFloor3Button.TabStop = false;
+            this.UpFloor3Button.UseVisualStyleBackColor = false;
+            // 
+            // Floor3PanelImage
+            // 
+            this.Floor3PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
+            resources.ApplyResources(this.Floor3PanelImage, "Floor3PanelImage");
+            this.Floor3PanelImage.Name = "Floor3PanelImage";
+            this.Floor3PanelImage.TabStop = false;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.Floor4Text);
+            this.panel5.Controls.Add(this.DownFloor4Button);
+            this.panel5.Controls.Add(this.UpFloor4Button);
+            this.panel5.Controls.Add(this.Floor4PanelImage);
+            resources.ApplyResources(this.panel5, "panel5");
+            this.panel5.Name = "panel5";
+            // 
+            // Floor4Text
+            // 
+            this.Floor4Text.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Floor4Text, "Floor4Text");
+            this.Floor4Text.ForeColor = System.Drawing.Color.Black;
+            this.Floor4Text.Name = "Floor4Text";
+            // 
+            // DownFloor4Button
+            // 
+            this.DownFloor4Button.BackColor = System.Drawing.Color.Transparent;
+            this.DownFloor4Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
+            resources.ApplyResources(this.DownFloor4Button, "DownFloor4Button");
+            this.DownFloor4Button.CausesValidation = false;
+            this.DownFloor4Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DownFloor4Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.DownFloor4Button.FlatAppearance.BorderSize = 0;
+            this.DownFloor4Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor4Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor4Button.ForeColor = System.Drawing.Color.Black;
+            this.DownFloor4Button.Name = "DownFloor4Button";
+            this.DownFloor4Button.TabStop = false;
+            this.DownFloor4Button.UseVisualStyleBackColor = false;
+            // 
+            // UpFloor4Button
+            // 
+            this.UpFloor4Button.BackColor = System.Drawing.Color.Transparent;
+            this.UpFloor4Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
+            resources.ApplyResources(this.UpFloor4Button, "UpFloor4Button");
+            this.UpFloor4Button.CausesValidation = false;
+            this.UpFloor4Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpFloor4Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.UpFloor4Button.FlatAppearance.BorderSize = 0;
+            this.UpFloor4Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor4Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor4Button.ForeColor = System.Drawing.Color.Black;
+            this.UpFloor4Button.Name = "UpFloor4Button";
+            this.UpFloor4Button.TabStop = false;
+            this.UpFloor4Button.UseVisualStyleBackColor = false;
+            // 
+            // Floor4PanelImage
+            // 
+            this.Floor4PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
+            resources.ApplyResources(this.Floor4PanelImage, "Floor4PanelImage");
+            this.Floor4PanelImage.Name = "Floor4PanelImage";
+            this.Floor4PanelImage.TabStop = false;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.Floor5Text);
+            this.panel6.Controls.Add(this.DownFloor5Button);
+            this.panel6.Controls.Add(this.UpFloor5Button);
+            this.panel6.Controls.Add(this.Floor5PanelImage);
+            resources.ApplyResources(this.panel6, "panel6");
+            this.panel6.Name = "panel6";
+            // 
+            // Floor5Text
+            // 
+            this.Floor5Text.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Floor5Text, "Floor5Text");
+            this.Floor5Text.ForeColor = System.Drawing.Color.Black;
+            this.Floor5Text.Name = "Floor5Text";
+            // 
+            // DownFloor5Button
+            // 
+            this.DownFloor5Button.BackColor = System.Drawing.Color.Transparent;
+            this.DownFloor5Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
+            resources.ApplyResources(this.DownFloor5Button, "DownFloor5Button");
+            this.DownFloor5Button.CausesValidation = false;
+            this.DownFloor5Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DownFloor5Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.DownFloor5Button.FlatAppearance.BorderSize = 0;
+            this.DownFloor5Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor5Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor5Button.ForeColor = System.Drawing.Color.Black;
+            this.DownFloor5Button.Name = "DownFloor5Button";
+            this.DownFloor5Button.TabStop = false;
+            this.DownFloor5Button.UseVisualStyleBackColor = false;
+            // 
+            // UpFloor5Button
+            // 
+            this.UpFloor5Button.BackColor = System.Drawing.Color.Transparent;
+            this.UpFloor5Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
+            resources.ApplyResources(this.UpFloor5Button, "UpFloor5Button");
+            this.UpFloor5Button.CausesValidation = false;
+            this.UpFloor5Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpFloor5Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.UpFloor5Button.FlatAppearance.BorderSize = 0;
+            this.UpFloor5Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor5Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor5Button.ForeColor = System.Drawing.Color.Black;
+            this.UpFloor5Button.Name = "UpFloor5Button";
+            this.UpFloor5Button.TabStop = false;
+            this.UpFloor5Button.UseVisualStyleBackColor = false;
+            // 
+            // Floor5PanelImage
+            // 
+            this.Floor5PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
+            resources.ApplyResources(this.Floor5PanelImage, "Floor5PanelImage");
+            this.Floor5PanelImage.Name = "Floor5PanelImage";
+            this.Floor5PanelImage.TabStop = false;
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.Floor7Text);
+            this.panel7.Controls.Add(this.DownFloor7Button);
+            this.panel7.Controls.Add(this.UpFloor7Button);
+            this.panel7.Controls.Add(this.Floor7PanelImage);
+            resources.ApplyResources(this.panel7, "panel7");
+            this.panel7.Name = "panel7";
+            // 
+            // Floor7Text
+            // 
+            this.Floor7Text.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Floor7Text, "Floor7Text");
+            this.Floor7Text.ForeColor = System.Drawing.Color.Black;
+            this.Floor7Text.Name = "Floor7Text";
+            // 
+            // DownFloor7Button
+            // 
+            this.DownFloor7Button.BackColor = System.Drawing.Color.Transparent;
+            this.DownFloor7Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
+            resources.ApplyResources(this.DownFloor7Button, "DownFloor7Button");
+            this.DownFloor7Button.CausesValidation = false;
+            this.DownFloor7Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DownFloor7Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.DownFloor7Button.FlatAppearance.BorderSize = 0;
+            this.DownFloor7Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor7Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor7Button.ForeColor = System.Drawing.Color.Black;
+            this.DownFloor7Button.Name = "DownFloor7Button";
+            this.DownFloor7Button.TabStop = false;
+            this.DownFloor7Button.UseVisualStyleBackColor = false;
+            // 
+            // UpFloor7Button
+            // 
+            this.UpFloor7Button.BackColor = System.Drawing.Color.Transparent;
+            this.UpFloor7Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
+            resources.ApplyResources(this.UpFloor7Button, "UpFloor7Button");
+            this.UpFloor7Button.CausesValidation = false;
+            this.UpFloor7Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpFloor7Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.UpFloor7Button.FlatAppearance.BorderSize = 0;
+            this.UpFloor7Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor7Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor7Button.ForeColor = System.Drawing.Color.Black;
+            this.UpFloor7Button.Name = "UpFloor7Button";
+            this.UpFloor7Button.TabStop = false;
+            this.UpFloor7Button.UseVisualStyleBackColor = false;
+            // 
+            // Floor7PanelImage
+            // 
+            this.Floor7PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
+            resources.ApplyResources(this.Floor7PanelImage, "Floor7PanelImage");
+            this.Floor7PanelImage.Name = "Floor7PanelImage";
+            this.Floor7PanelImage.TabStop = false;
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.Floor8Text);
+            this.panel8.Controls.Add(this.DownFloor8Button);
+            this.panel8.Controls.Add(this.UpFloor8Button);
+            this.panel8.Controls.Add(this.Floor8PanelImage);
+            resources.ApplyResources(this.panel8, "panel8");
+            this.panel8.Name = "panel8";
+            // 
+            // Floor8Text
+            // 
+            this.Floor8Text.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Floor8Text, "Floor8Text");
+            this.Floor8Text.ForeColor = System.Drawing.Color.Black;
+            this.Floor8Text.Name = "Floor8Text";
+            // 
+            // DownFloor8Button
+            // 
+            this.DownFloor8Button.BackColor = System.Drawing.Color.Transparent;
+            this.DownFloor8Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
+            resources.ApplyResources(this.DownFloor8Button, "DownFloor8Button");
+            this.DownFloor8Button.CausesValidation = false;
+            this.DownFloor8Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DownFloor8Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.DownFloor8Button.FlatAppearance.BorderSize = 0;
+            this.DownFloor8Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor8Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor8Button.ForeColor = System.Drawing.Color.Black;
+            this.DownFloor8Button.Name = "DownFloor8Button";
+            this.DownFloor8Button.TabStop = false;
+            this.DownFloor8Button.UseVisualStyleBackColor = false;
+            // 
+            // UpFloor8Button
+            // 
+            this.UpFloor8Button.BackColor = System.Drawing.Color.Transparent;
+            this.UpFloor8Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
+            resources.ApplyResources(this.UpFloor8Button, "UpFloor8Button");
+            this.UpFloor8Button.CausesValidation = false;
+            this.UpFloor8Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpFloor8Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.UpFloor8Button.FlatAppearance.BorderSize = 0;
+            this.UpFloor8Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor8Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor8Button.ForeColor = System.Drawing.Color.Black;
+            this.UpFloor8Button.Name = "UpFloor8Button";
+            this.UpFloor8Button.TabStop = false;
+            this.UpFloor8Button.UseVisualStyleBackColor = false;
+            // 
+            // Floor8PanelImage
+            // 
+            this.Floor8PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
+            resources.ApplyResources(this.Floor8PanelImage, "Floor8PanelImage");
+            this.Floor8PanelImage.Name = "Floor8PanelImage";
+            this.Floor8PanelImage.TabStop = false;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.Floor9Text);
+            this.panel9.Controls.Add(this.DownFloor9Button);
+            this.panel9.Controls.Add(this.UpFloor9Button);
+            this.panel9.Controls.Add(this.Floor9PanelImage);
+            resources.ApplyResources(this.panel9, "panel9");
+            this.panel9.Name = "panel9";
+            // 
+            // Floor9Text
+            // 
+            this.Floor9Text.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Floor9Text, "Floor9Text");
+            this.Floor9Text.ForeColor = System.Drawing.Color.Black;
+            this.Floor9Text.Name = "Floor9Text";
+            // 
+            // DownFloor9Button
+            // 
+            this.DownFloor9Button.BackColor = System.Drawing.Color.Transparent;
+            this.DownFloor9Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
+            resources.ApplyResources(this.DownFloor9Button, "DownFloor9Button");
+            this.DownFloor9Button.CausesValidation = false;
+            this.DownFloor9Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DownFloor9Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.DownFloor9Button.FlatAppearance.BorderSize = 0;
+            this.DownFloor9Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor9Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor9Button.ForeColor = System.Drawing.Color.Black;
+            this.DownFloor9Button.Name = "DownFloor9Button";
+            this.DownFloor9Button.TabStop = false;
+            this.DownFloor9Button.UseVisualStyleBackColor = false;
+            // 
+            // UpFloor9Button
+            // 
+            this.UpFloor9Button.BackColor = System.Drawing.Color.Transparent;
+            this.UpFloor9Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
+            resources.ApplyResources(this.UpFloor9Button, "UpFloor9Button");
+            this.UpFloor9Button.CausesValidation = false;
+            this.UpFloor9Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpFloor9Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.UpFloor9Button.FlatAppearance.BorderSize = 0;
+            this.UpFloor9Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor9Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor9Button.ForeColor = System.Drawing.Color.Black;
+            this.UpFloor9Button.Name = "UpFloor9Button";
+            this.UpFloor9Button.TabStop = false;
+            this.UpFloor9Button.UseVisualStyleBackColor = false;
+            // 
+            // Floor9PanelImage
+            // 
+            this.Floor9PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
+            resources.ApplyResources(this.Floor9PanelImage, "Floor9PanelImage");
+            this.Floor9PanelImage.Name = "Floor9PanelImage";
+            this.Floor9PanelImage.TabStop = false;
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.Floor10Text);
+            this.panel10.Controls.Add(this.DownFloor10Button);
+            this.panel10.Controls.Add(this.UpFloor10Button);
+            this.panel10.Controls.Add(this.Floor10PanelImage);
+            resources.ApplyResources(this.panel10, "panel10");
+            this.panel10.Name = "panel10";
+            // 
+            // Floor10Text
+            // 
+            this.Floor10Text.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.Floor10Text, "Floor10Text");
+            this.Floor10Text.ForeColor = System.Drawing.Color.Black;
+            this.Floor10Text.Name = "Floor10Text";
+            // 
+            // DownFloor10Button
+            // 
+            this.DownFloor10Button.BackColor = System.Drawing.Color.Transparent;
+            this.DownFloor10Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2Baixo;
+            resources.ApplyResources(this.DownFloor10Button, "DownFloor10Button");
+            this.DownFloor10Button.CausesValidation = false;
+            this.DownFloor10Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.DownFloor10Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.DownFloor10Button.FlatAppearance.BorderSize = 0;
+            this.DownFloor10Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor10Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.DownFloor10Button.ForeColor = System.Drawing.Color.Black;
+            this.DownFloor10Button.Name = "DownFloor10Button";
+            this.DownFloor10Button.TabStop = false;
+            this.DownFloor10Button.UseVisualStyleBackColor = false;
+            // 
+            // UpFloor10Button
+            // 
+            this.UpFloor10Button.BackColor = System.Drawing.Color.Transparent;
+            this.UpFloor10Button.BackgroundImage = global::ElevadorSistemasSupervisorios.Properties.Resources.Botao2;
+            resources.ApplyResources(this.UpFloor10Button, "UpFloor10Button");
+            this.UpFloor10Button.CausesValidation = false;
+            this.UpFloor10Button.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpFloor10Button.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.UpFloor10Button.FlatAppearance.BorderSize = 0;
+            this.UpFloor10Button.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor10Button.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.UpFloor10Button.ForeColor = System.Drawing.Color.Black;
+            this.UpFloor10Button.Name = "UpFloor10Button";
+            this.UpFloor10Button.TabStop = false;
+            this.UpFloor10Button.UseVisualStyleBackColor = false;
+            // 
+            // Floor10PanelImage
+            // 
+            this.Floor10PanelImage.Image = global::ElevadorSistemasSupervisorios.Properties.Resources.PainelExterno;
+            resources.ApplyResources(this.Floor10PanelImage, "Floor10PanelImage");
+            this.Floor10PanelImage.Name = "Floor10PanelImage";
+            this.Floor10PanelImage.TabStop = false;
+            // 
+            // AutomaticCheckBox
+            // 
+            resources.ApplyResources(this.AutomaticCheckBox, "AutomaticCheckBox");
+            this.AutomaticCheckBox.Name = "AutomaticCheckBox";
+            this.AutomaticCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // ManualCheckBox
+            // 
+            resources.ApplyResources(this.ManualCheckBox, "ManualCheckBox");
+            this.ManualCheckBox.Name = "ManualCheckBox";
+            this.ManualCheckBox.UseVisualStyleBackColor = true;
             // 
             // Floor10Button
             // 
@@ -907,6 +907,20 @@ namespace ElevadorSistemasSupervisorios
             resources.ApplyResources(this.panel12, "panel12");
             this.panel12.Name = "panel12";
             // 
+            // GabrielText
+            // 
+            this.GabrielText.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.GabrielText, "GabrielText");
+            this.GabrielText.ForeColor = System.Drawing.Color.Black;
+            this.GabrielText.Name = "GabrielText";
+            // 
+            // EveraldoText
+            // 
+            this.EveraldoText.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.EveraldoText, "EveraldoText");
+            this.EveraldoText.ForeColor = System.Drawing.Color.Black;
+            this.EveraldoText.Name = "EveraldoText";
+            // 
             // StudentsText
             // 
             this.StudentsText.BackColor = System.Drawing.Color.Transparent;
@@ -920,20 +934,6 @@ namespace ElevadorSistemasSupervisorios
             resources.ApplyResources(this.StudentsPanelImage, "StudentsPanelImage");
             this.StudentsPanelImage.Name = "StudentsPanelImage";
             this.StudentsPanelImage.TabStop = false;
-            // 
-            // EveraldoText
-            // 
-            this.EveraldoText.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.EveraldoText, "EveraldoText");
-            this.EveraldoText.ForeColor = System.Drawing.Color.Black;
-            this.EveraldoText.Name = "EveraldoText";
-            // 
-            // GabrielText
-            // 
-            this.GabrielText.BackColor = System.Drawing.Color.Transparent;
-            resources.ApplyResources(this.GabrielText, "GabrielText");
-            this.GabrielText.ForeColor = System.Drawing.Color.Black;
-            this.GabrielText.Name = "GabrielText";
             // 
             // MainWindow
             // 
@@ -967,26 +967,27 @@ namespace ElevadorSistemasSupervisorios
             this.Controls.Add(this.InternalPanelImage);
             this.MaximizeBox = false;
             this.Name = "MainWindow";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MainWindow_FormClosing);
             this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Floor1PanelImage)).EndInit();
             this.panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Floor6PanelImage)).EndInit();
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Floor2PanelImage)).EndInit();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Floor3PanelImage)).EndInit();
             this.panel5.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Floor4PanelImage)).EndInit();
             this.panel6.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Floor5PanelImage)).EndInit();
             this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Floor7PanelImage)).EndInit();
             this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Floor8PanelImage)).EndInit();
             this.panel9.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.Floor9PanelImage)).EndInit();
             this.panel10.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.Floor10PanelImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor9PanelImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor8PanelImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor7PanelImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor5PanelImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor4PanelImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor3PanelImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor2PanelImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor6PanelImage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.Floor1PanelImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DirectionIndicatorImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.InternalPanelImage)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.OperationPanelImage)).EndInit();
