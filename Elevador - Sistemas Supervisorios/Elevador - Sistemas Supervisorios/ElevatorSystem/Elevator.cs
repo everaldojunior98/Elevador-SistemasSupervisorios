@@ -44,13 +44,13 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
 
         public void RequestFloor(int floor, ElevatorDirection direction)
         {
-            if (!externalFloors.ContainsKey(floor))
+            if (!externalFloors.ContainsKey(floor) && floor != currentFloor)
                 externalFloors.Add(floor, direction);
         }
 
         public void RequestFloor(int floor)
         {
-            if (!internalFloors.Contains(floor))
+            if (!internalFloors.Contains(floor) && floor != currentFloor)
             {
                 internalFloors.Add(floor);
                 changedRoute = true;
