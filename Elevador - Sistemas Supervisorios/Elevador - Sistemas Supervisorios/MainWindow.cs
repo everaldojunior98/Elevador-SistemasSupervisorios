@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Drawing.Text;
 using System.IO;
@@ -24,15 +25,26 @@ namespace ElevadorSistemasSupervisorios
 
         private readonly Simulation simulation;
 
+        private readonly Dictionary<int, Button> internalButtonsClicked;
+        private readonly Dictionary<int, Tuple<Button, Button>> externalButtonsClicked;
+
+        private bool stopped;
+
         public MainWindow()
         {
             InitializeComponent();
+
+            stopped = true;
 
             elevator = new Elevator();
             elevator.OnFloorChanged += ElevatorOnFloorChanged;
             elevator.OnStoppedFloor += ElevatorOnStoppedFloor;
 
             simulation = new Simulation(elevator);
+            simulation.OnGeneratedFloor += SimulationOnOnGeneratedFloor;
+
+            internalButtonsClicked = new Dictionary<int, Button>();
+            externalButtonsClicked = new Dictionary<int, Tuple<Button, Button>>();
 
             //Carregando as fontes custom
             customFontCollection = new PrivateFontCollection();
@@ -79,35 +91,166 @@ namespace ElevadorSistemasSupervisorios
             ManualCheckBox.Checked = true;
 
             //Setup dos botões do painel interno
-            SetupButton(Floor1Button, InternalPanelImage, () => { elevator.RequestFloor(1); });
-            SetupButton(Floor2Button, InternalPanelImage, () => { elevator.RequestFloor(2); });
-            SetupButton(Floor3Button, InternalPanelImage, () => { elevator.RequestFloor(3); });
-            SetupButton(Floor4Button, InternalPanelImage, () => { elevator.RequestFloor(4); });
-            SetupButton(Floor5Button, InternalPanelImage, () => { elevator.RequestFloor(5); });
-            SetupButton(Floor6Button, InternalPanelImage, () => { elevator.RequestFloor(6); });
-            SetupButton(Floor7Button, InternalPanelImage, () => { elevator.RequestFloor(7); });
-            SetupButton(Floor8Button, InternalPanelImage, () => { elevator.RequestFloor(8); });
-            SetupButton(Floor9Button, InternalPanelImage, () => { elevator.RequestFloor(9); });
-            SetupButton(Floor10Button, InternalPanelImage, () => { elevator.RequestFloor(10); });
+            SetupButton(Floor1Button, InternalPanelImage, () => { OnInternalButtonClicked(Floor1Button, 1); });
+            SetupButton(Floor2Button, InternalPanelImage, () => { OnInternalButtonClicked(Floor2Button, 2); });
+            SetupButton(Floor3Button, InternalPanelImage, () => { OnInternalButtonClicked(Floor3Button, 3); });
+            SetupButton(Floor4Button, InternalPanelImage, () => { OnInternalButtonClicked(Floor4Button, 4); });
+            SetupButton(Floor5Button, InternalPanelImage, () => { OnInternalButtonClicked(Floor5Button, 5); });
+            SetupButton(Floor6Button, InternalPanelImage, () => { OnInternalButtonClicked(Floor6Button, 6); });
+            SetupButton(Floor7Button, InternalPanelImage, () => { OnInternalButtonClicked(Floor7Button, 7); });
+            SetupButton(Floor8Button, InternalPanelImage, () => { OnInternalButtonClicked(Floor8Button, 8); });
+            SetupButton(Floor9Button, InternalPanelImage, () => { OnInternalButtonClicked(Floor9Button, 9); });
+            SetupButton(Floor10Button, InternalPanelImage, () => { OnInternalButtonClicked(Floor10Button, 10); });
 
             //Setup dos botões do painel externo
-            SetupFloor(Floor1Text, Floor1PanelImage, UpFloor1Button, null, () => { elevator.RequestFloor(1, ElevatorDirection.UP); }, () => { elevator.RequestFloor(1, ElevatorDirection.DOWN); });
-            SetupFloor(Floor2Text, Floor2PanelImage, UpFloor2Button, DownFloor2Button, () => { elevator.RequestFloor(2, ElevatorDirection.UP); }, () => { elevator.RequestFloor(2, ElevatorDirection.DOWN); });
-            SetupFloor(Floor3Text, Floor3PanelImage, UpFloor3Button, DownFloor3Button, () => { elevator.RequestFloor(3, ElevatorDirection.UP); }, () => { elevator.RequestFloor(3, ElevatorDirection.DOWN); });
-            SetupFloor(Floor4Text, Floor4PanelImage, UpFloor4Button, DownFloor4Button, () => { elevator.RequestFloor(4, ElevatorDirection.UP); }, () => { elevator.RequestFloor(4, ElevatorDirection.DOWN); });
-            SetupFloor(Floor5Text, Floor5PanelImage, UpFloor5Button, DownFloor5Button, () => { elevator.RequestFloor(5, ElevatorDirection.UP); }, () => { elevator.RequestFloor(5, ElevatorDirection.DOWN); });
-            SetupFloor(Floor6Text, Floor6PanelImage, UpFloor6Button, DownFloor6Button, () => { elevator.RequestFloor(6, ElevatorDirection.UP); }, () => { elevator.RequestFloor(6, ElevatorDirection.DOWN); });
-            SetupFloor(Floor7Text, Floor7PanelImage, UpFloor7Button, DownFloor7Button, () => { elevator.RequestFloor(7, ElevatorDirection.UP); }, () => { elevator.RequestFloor(7, ElevatorDirection.DOWN); });
-            SetupFloor(Floor8Text, Floor8PanelImage, UpFloor8Button, DownFloor8Button, () => { elevator.RequestFloor(8, ElevatorDirection.UP); }, () => { elevator.RequestFloor(8, ElevatorDirection.DOWN); });
-            SetupFloor(Floor9Text, Floor9PanelImage, UpFloor9Button, DownFloor9Button, () => { elevator.RequestFloor(9, ElevatorDirection.UP); }, () => { elevator.RequestFloor(9, ElevatorDirection.DOWN); });
-            SetupFloor(Floor10Text, Floor10PanelImage, null, DownFloor10Button, () => { elevator.RequestFloor(10, ElevatorDirection.UP); }, () => { elevator.RequestFloor(10, ElevatorDirection.DOWN); });
+            SetupFloor(Floor1Text, Floor1PanelImage, UpFloor1Button, null, () => { OnExternalButtonClicked(UpFloor1Button, null, 1, ElevatorDirection.UP); }, () => { });
+            SetupFloor(Floor2Text, Floor2PanelImage, UpFloor2Button, DownFloor2Button, () => { OnExternalButtonClicked(UpFloor2Button, DownFloor2Button, 2, ElevatorDirection.UP); }, () => { OnExternalButtonClicked(UpFloor2Button, DownFloor2Button, 2, ElevatorDirection.DOWN); });
+            SetupFloor(Floor3Text, Floor3PanelImage, UpFloor3Button, DownFloor3Button, () => { OnExternalButtonClicked(UpFloor3Button, DownFloor3Button, 3, ElevatorDirection.UP); }, () => { OnExternalButtonClicked(UpFloor3Button, DownFloor3Button, 3, ElevatorDirection.DOWN); });
+            SetupFloor(Floor4Text, Floor4PanelImage, UpFloor4Button, DownFloor4Button, () => { OnExternalButtonClicked(UpFloor4Button, DownFloor4Button, 4, ElevatorDirection.UP); }, () => { OnExternalButtonClicked(UpFloor4Button, DownFloor4Button, 4, ElevatorDirection.DOWN); });
+            SetupFloor(Floor5Text, Floor5PanelImage, UpFloor5Button, DownFloor5Button, () => { OnExternalButtonClicked(UpFloor5Button, DownFloor5Button, 5, ElevatorDirection.UP); }, () => { OnExternalButtonClicked(UpFloor5Button, DownFloor5Button, 5, ElevatorDirection.DOWN); });
+            SetupFloor(Floor6Text, Floor6PanelImage, UpFloor6Button, DownFloor6Button, () => { OnExternalButtonClicked(UpFloor6Button, DownFloor6Button, 6, ElevatorDirection.UP); }, () => { OnExternalButtonClicked(UpFloor6Button, DownFloor6Button, 6, ElevatorDirection.DOWN); });
+            SetupFloor(Floor7Text, Floor7PanelImage, UpFloor7Button, DownFloor7Button, () => { OnExternalButtonClicked(UpFloor7Button, DownFloor7Button, 7, ElevatorDirection.UP); }, () => { OnExternalButtonClicked(UpFloor7Button, DownFloor7Button, 7, ElevatorDirection.DOWN); });
+            SetupFloor(Floor8Text, Floor8PanelImage, UpFloor8Button, DownFloor8Button, () => { OnExternalButtonClicked(UpFloor8Button, DownFloor8Button, 8, ElevatorDirection.UP); }, () => { OnExternalButtonClicked(UpFloor8Button, DownFloor8Button, 8, ElevatorDirection.DOWN); });
+            SetupFloor(Floor9Text, Floor9PanelImage, UpFloor9Button, DownFloor9Button, () => { OnExternalButtonClicked(UpFloor9Button, DownFloor9Button, 9, ElevatorDirection.UP); }, () => { OnExternalButtonClicked(UpFloor9Button, DownFloor9Button, 9, ElevatorDirection.DOWN); });
+            SetupFloor(Floor10Text, Floor10PanelImage, null, DownFloor10Button, () => { }, () => { OnExternalButtonClicked(null, DownFloor10Button, 10, ElevatorDirection.DOWN); });
 
             //Carregas as fontes custom
             FloorIndicatorText.Font = GetCustomFont(lcdFont, FloorIndicatorText.Font.Size);
         }
 
+        private void SimulationOnOnGeneratedFloor(object source, OnGeneratedFloorEventArgs args)
+        {
+            var floor = args.Floor;
+            var direction = args.Direction;
+
+            var image = new Bitmap(direction == ElevatorDirection.UP
+                ? Resources.BotaoVermelho2
+                : Resources.BotaoVermelho2Baixo);
+
+            Button buttonUp = null;
+            Button buttonDown = null;
+
+            switch (floor)
+            {
+                case 1:
+                    buttonUp = UpFloor1Button;
+                    buttonDown = null;
+                    break;
+                case 2:
+                    buttonUp = UpFloor2Button;
+                    buttonDown = DownFloor2Button;
+                    break;
+                case 3:
+                    buttonUp = UpFloor3Button;
+                    buttonDown = DownFloor3Button;
+                    break;
+                case 4:
+                    buttonUp = UpFloor4Button;
+                    buttonDown = DownFloor4Button;
+                    break;
+                case 5:
+                    buttonUp = UpFloor5Button;
+                    buttonDown = DownFloor5Button;
+                    break;
+                case 6:
+                    buttonUp = UpFloor6Button;
+                    buttonDown = DownFloor6Button;
+                    break;
+                case 7:
+                    buttonUp = UpFloor7Button;
+                    buttonDown = DownFloor7Button;
+                    break;
+                case 8:
+                    buttonUp = UpFloor8Button;
+                    buttonDown = DownFloor8Button;
+                    break;
+                case 9:
+                    buttonUp = UpFloor9Button;
+                    buttonDown = DownFloor9Button;
+                    break;
+                case 10:
+                    buttonUp = null;
+                    buttonDown = DownFloor10Button;
+                    break;
+            }
+
+            if (direction == ElevatorDirection.UP && buttonUp != null)
+                buttonUp.BackgroundImage = image;
+            else if(buttonDown != null)
+                buttonDown.BackgroundImage = image;
+
+            if (!externalButtonsClicked.ContainsKey(floor))
+                externalButtonsClicked.Add(floor, Tuple.Create(buttonUp, buttonDown));
+        }
+
+        private void OnInternalButtonClicked(Button button, int floor)
+        {
+            if(stopped && elevator.GetCurrentFloor() == floor)
+                return;
+
+            var image = new Bitmap(Resources.BotaoVermelho);
+            button.BackgroundImage = image;
+
+            if (!internalButtonsClicked.ContainsKey(floor))
+                internalButtonsClicked.Add(floor, button);
+
+            elevator.RequestFloor(floor);
+        }
+
+        private void OnExternalButtonClicked(Button buttonUp, Button buttonDown, int floor, ElevatorDirection direction)
+        {
+            if (stopped && elevator.GetCurrentFloor() == floor)
+                return;
+
+            var image = new Bitmap(direction == ElevatorDirection.UP
+                ? Resources.BotaoVermelho2
+                : Resources.BotaoVermelho2Baixo);
+
+            if (direction == ElevatorDirection.UP)
+                buttonUp.BackgroundImage = image;
+            else
+                buttonDown.BackgroundImage = image;
+
+            if (!externalButtonsClicked.ContainsKey(floor))
+                externalButtonsClicked.Add(floor, Tuple.Create(buttonUp, buttonDown));
+
+            elevator.RequestFloor(floor, direction);
+        }
+
         private void ElevatorOnStoppedFloor(object source, EventArgs args)
         {
+            stopped = true;
+            var currentFloor = elevator.GetCurrentFloor();
+            if (internalButtonsClicked.ContainsKey(currentFloor))
+            {
+                var button = internalButtonsClicked[currentFloor];
+                button.Invoke(new Action(() =>
+                {
+                    var image = new Bitmap(Resources.Botao);
+                    button.BackgroundImage = image;
+                }));
+
+                internalButtonsClicked.Remove(currentFloor);
+            }
+
+            if (externalButtonsClicked.ContainsKey(currentFloor))
+            {
+                var buttons = externalButtonsClicked[currentFloor];
+
+                buttons.Item1?.Invoke(new Action(() =>
+                {
+                    var image = new Bitmap(Resources.Botao2);
+                    buttons.Item1.BackgroundImage = image;
+                }));
+                buttons.Item2?.Invoke(new Action(() =>
+                {
+                    var image = new Bitmap(Resources.Botao2Baixo);
+                    buttons.Item2.BackgroundImage = image;
+                }));
+
+                externalButtonsClicked.Remove(currentFloor);
+            }
+
             DirectionIndicatorImage.Invoke(new Action(() =>
             {
                 DirectionIndicatorImage.Visible = false;
@@ -116,6 +259,7 @@ namespace ElevadorSistemasSupervisorios
 
         private void ElevatorOnFloorChanged(object source, OnFloorChangedEventArgs args)
         {
+            stopped = false;
             FloorIndicatorText.Invoke(new Action(() => FloorIndicatorText.Text = args.Floor.ToString()));
 
             DirectionIndicatorImage.Invoke(new Action(() =>

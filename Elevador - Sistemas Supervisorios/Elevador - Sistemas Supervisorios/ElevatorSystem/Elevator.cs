@@ -65,6 +65,11 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
             }
         }
 
+        public int GetCurrentFloor()
+        {
+            return currentFloor;
+        }
+
         public void Dispose()
         {
             cancellationToken.Cancel();

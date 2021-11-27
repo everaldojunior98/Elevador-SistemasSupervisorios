@@ -153,6 +153,63 @@
   <data name="&gt;&gt;FloorIndicatorText.ZOrder" xml:space="preserve">
     <value>23</value>
   </data>
+  <data name="&gt;&gt;Floor1Text.Name" xml:space="preserve">
+    <value>Floor1Text</value>
+  </data>
+  <data name="&gt;&gt;Floor1Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor1Text.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Floor1Text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;UpFloor1Button.Name" xml:space="preserve">
+    <value>UpFloor1Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor1Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor1Button.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;UpFloor1Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Floor1PanelImage.Name" xml:space="preserve">
+    <value>Floor1PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor1PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor1PanelImage.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;Floor1PanelImage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 0</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 215</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
   <data name="Floor1Text.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 17.9999981pt</value>
   </data>
@@ -246,26 +303,74 @@
   <data name="&gt;&gt;Floor1PanelImage.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 0</value>
+  <data name="&gt;&gt;Floor6Text.Name" xml:space="preserve">
+    <value>Floor6Text</value>
   </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;Floor6Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor6Text.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;Floor6Text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DownFloor6Button.Name" xml:space="preserve">
+    <value>DownFloor6Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor6Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor6Button.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;DownFloor6Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UpFloor6Button.Name" xml:space="preserve">
+    <value>UpFloor6Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor6Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor6Button.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;UpFloor6Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Floor6PanelImage.Name" xml:space="preserve">
+    <value>Floor6PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor6PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor6PanelImage.Parent" xml:space="preserve">
+    <value>panel2</value>
+  </data>
+  <data name="&gt;&gt;Floor6PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 204</value>
+  </data>
+  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 215</value>
   </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
   </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
+  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
+    <value>panel2</value>
   </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>11</value>
+  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
+    <value>10</value>
   </data>
   <data name="Floor6Text.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 17.9999981pt</value>
@@ -393,26 +498,74 @@
   <data name="&gt;&gt;Floor6PanelImage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>226, 204</value>
+  <data name="&gt;&gt;Floor2Text.Name" xml:space="preserve">
+    <value>Floor2Text</value>
   </data>
-  <data name="panel2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;Floor2Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor2Text.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;Floor2Text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DownFloor2Button.Name" xml:space="preserve">
+    <value>DownFloor2Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor2Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor2Button.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;DownFloor2Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UpFloor2Button.Name" xml:space="preserve">
+    <value>UpFloor2Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor2Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor2Button.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;UpFloor2Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Floor2PanelImage.Name" xml:space="preserve">
+    <value>Floor2PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor2PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor2PanelImage.Parent" xml:space="preserve">
+    <value>panel3</value>
+  </data>
+  <data name="&gt;&gt;Floor2PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 0</value>
+  </data>
+  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 215</value>
   </data>
-  <data name="panel2.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
+  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
-  <data name="&gt;&gt;panel2.Name" xml:space="preserve">
-    <value>panel2</value>
+  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
+    <value>panel3</value>
   </data>
-  <data name="&gt;&gt;panel2.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel2.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <data name="Floor2Text.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 17.9999981pt</value>
@@ -540,26 +693,74 @@
   <data name="&gt;&gt;Floor2PanelImage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>358, 0</value>
+  <data name="&gt;&gt;Floor3Text.Name" xml:space="preserve">
+    <value>Floor3Text</value>
   </data>
-  <data name="panel3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;Floor3Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor3Text.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;Floor3Text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DownFloor3Button.Name" xml:space="preserve">
+    <value>DownFloor3Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor3Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor3Button.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;DownFloor3Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UpFloor3Button.Name" xml:space="preserve">
+    <value>UpFloor3Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor3Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor3Button.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;UpFloor3Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Floor3PanelImage.Name" xml:space="preserve">
+    <value>Floor3PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor3PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor3PanelImage.Parent" xml:space="preserve">
+    <value>panel4</value>
+  </data>
+  <data name="&gt;&gt;Floor3PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>491, 0</value>
+  </data>
+  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 215</value>
   </data>
-  <data name="panel3.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
+  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
   </data>
-  <data name="&gt;&gt;panel3.Name" xml:space="preserve">
-    <value>panel3</value>
+  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
+    <value>panel4</value>
   </data>
-  <data name="&gt;&gt;panel3.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel3.ZOrder" xml:space="preserve">
-    <value>9</value>
+  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="Floor3Text.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 17.9999981pt</value>
@@ -687,26 +888,74 @@
   <data name="&gt;&gt;Floor3PanelImage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>491, 0</value>
+  <data name="&gt;&gt;Floor4Text.Name" xml:space="preserve">
+    <value>Floor4Text</value>
   </data>
-  <data name="panel4.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;Floor4Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor4Text.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;Floor4Text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DownFloor4Button.Name" xml:space="preserve">
+    <value>DownFloor4Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor4Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor4Button.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;DownFloor4Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UpFloor4Button.Name" xml:space="preserve">
+    <value>UpFloor4Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor4Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor4Button.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;UpFloor4Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Floor4PanelImage.Name" xml:space="preserve">
+    <value>Floor4PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor4PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor4PanelImage.Parent" xml:space="preserve">
+    <value>panel5</value>
+  </data>
+  <data name="&gt;&gt;Floor4PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>623, 0</value>
+  </data>
+  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 215</value>
   </data>
-  <data name="panel4.TabIndex" type="System.Int32, mscorlib">
+  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  <data name="&gt;&gt;panel4.Name" xml:space="preserve">
-    <value>panel4</value>
+  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
+    <value>panel5</value>
   </data>
-  <data name="&gt;&gt;panel4.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel4.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel4.ZOrder" xml:space="preserve">
-    <value>8</value>
+  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
+    <value>7</value>
   </data>
   <data name="Floor4Text.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 17.9999981pt</value>
@@ -834,26 +1083,74 @@
   <data name="&gt;&gt;Floor4PanelImage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>623, 0</value>
+  <data name="&gt;&gt;Floor5Text.Name" xml:space="preserve">
+    <value>Floor5Text</value>
   </data>
-  <data name="panel5.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;Floor5Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor5Text.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Floor5Text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DownFloor5Button.Name" xml:space="preserve">
+    <value>DownFloor5Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor5Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor5Button.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;DownFloor5Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UpFloor5Button.Name" xml:space="preserve">
+    <value>UpFloor5Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor5Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor5Button.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;UpFloor5Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Floor5PanelImage.Name" xml:space="preserve">
+    <value>Floor5PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor5PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor5PanelImage.Parent" xml:space="preserve">
+    <value>panel6</value>
+  </data>
+  <data name="&gt;&gt;Floor5PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>755, 0</value>
+  </data>
+  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 215</value>
   </data>
-  <data name="panel5.TabIndex" type="System.Int32, mscorlib">
+  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
   </data>
-  <data name="&gt;&gt;panel5.Name" xml:space="preserve">
-    <value>panel5</value>
+  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
+    <value>panel6</value>
   </data>
-  <data name="&gt;&gt;panel5.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel5.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel5.ZOrder" xml:space="preserve">
-    <value>7</value>
+  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="Floor5Text.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 17.9999981pt</value>
@@ -981,26 +1278,74 @@
   <data name="&gt;&gt;Floor5PanelImage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>755, 0</value>
+  <data name="&gt;&gt;Floor7Text.Name" xml:space="preserve">
+    <value>Floor7Text</value>
   </data>
-  <data name="panel6.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;Floor7Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor7Text.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;Floor7Text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DownFloor7Button.Name" xml:space="preserve">
+    <value>DownFloor7Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor7Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor7Button.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;DownFloor7Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UpFloor7Button.Name" xml:space="preserve">
+    <value>UpFloor7Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor7Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor7Button.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;UpFloor7Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Floor7PanelImage.Name" xml:space="preserve">
+    <value>Floor7PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor7PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor7PanelImage.Parent" xml:space="preserve">
+    <value>panel7</value>
+  </data>
+  <data name="&gt;&gt;Floor7PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>358, 204</value>
+  </data>
+  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 215</value>
   </data>
-  <data name="panel6.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
+  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
   </data>
-  <data name="&gt;&gt;panel6.Name" xml:space="preserve">
-    <value>panel6</value>
+  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
+    <value>panel7</value>
   </data>
-  <data name="&gt;&gt;panel6.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel6.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel6.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
+    <value>5</value>
   </data>
   <data name="Floor7Text.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 17.9999981pt</value>
@@ -1128,26 +1473,74 @@
   <data name="&gt;&gt;Floor7PanelImage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>358, 204</value>
+  <data name="&gt;&gt;Floor8Text.Name" xml:space="preserve">
+    <value>Floor8Text</value>
   </data>
-  <data name="panel7.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;Floor8Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor8Text.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;Floor8Text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DownFloor8Button.Name" xml:space="preserve">
+    <value>DownFloor8Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor8Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor8Button.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;DownFloor8Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UpFloor8Button.Name" xml:space="preserve">
+    <value>UpFloor8Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor8Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor8Button.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;UpFloor8Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Floor8PanelImage.Name" xml:space="preserve">
+    <value>Floor8PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor8PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor8PanelImage.Parent" xml:space="preserve">
+    <value>panel8</value>
+  </data>
+  <data name="&gt;&gt;Floor8PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>490, 204</value>
+  </data>
+  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 215</value>
   </data>
-  <data name="panel7.TabIndex" type="System.Int32, mscorlib">
+  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;panel7.Name" xml:space="preserve">
-    <value>panel7</value>
+  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
+    <value>panel8</value>
   </data>
-  <data name="&gt;&gt;panel7.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel7.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel7.ZOrder" xml:space="preserve">
-    <value>5</value>
+  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="Floor8Text.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 17.9999981pt</value>
@@ -1275,26 +1668,74 @@
   <data name="&gt;&gt;Floor8PanelImage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel8.Location" type="System.Drawing.Point, System.Drawing">
-    <value>490, 204</value>
+  <data name="&gt;&gt;Floor9Text.Name" xml:space="preserve">
+    <value>Floor9Text</value>
   </data>
-  <data name="panel8.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;Floor9Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor9Text.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;Floor9Text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DownFloor9Button.Name" xml:space="preserve">
+    <value>DownFloor9Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor9Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor9Button.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;DownFloor9Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;UpFloor9Button.Name" xml:space="preserve">
+    <value>UpFloor9Button</value>
+  </data>
+  <data name="&gt;&gt;UpFloor9Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;UpFloor9Button.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;UpFloor9Button.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;Floor9PanelImage.Name" xml:space="preserve">
+    <value>Floor9PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor9PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor9PanelImage.Parent" xml:space="preserve">
+    <value>panel9</value>
+  </data>
+  <data name="&gt;&gt;Floor9PanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>621, 204</value>
+  </data>
+  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 215</value>
   </data>
-  <data name="panel8.TabIndex" type="System.Int32, mscorlib">
+  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;panel8.Name" xml:space="preserve">
-    <value>panel8</value>
+  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
+    <value>panel9</value>
   </data>
-  <data name="&gt;&gt;panel8.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel8.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel8.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="Floor9Text.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 17.9999981pt</value>
@@ -1422,26 +1863,62 @@
   <data name="&gt;&gt;Floor9PanelImage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel9.Location" type="System.Drawing.Point, System.Drawing">
-    <value>621, 204</value>
+  <data name="&gt;&gt;Floor10Text.Name" xml:space="preserve">
+    <value>Floor10Text</value>
   </data>
-  <data name="panel9.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="&gt;&gt;Floor10Text.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor10Text.Parent" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;Floor10Text.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;DownFloor10Button.Name" xml:space="preserve">
+    <value>DownFloor10Button</value>
+  </data>
+  <data name="&gt;&gt;DownFloor10Button.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DownFloor10Button.Parent" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;DownFloor10Button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;Floor10PanelImage.Name" xml:space="preserve">
+    <value>Floor10PanelImage</value>
+  </data>
+  <data name="&gt;&gt;Floor10PanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Floor10PanelImage.Parent" xml:space="preserve">
+    <value>panel10</value>
+  </data>
+  <data name="&gt;&gt;Floor10PanelImage.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>754, 204</value>
+  </data>
+  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
     <value>144, 215</value>
   </data>
-  <data name="panel9.TabIndex" type="System.Int32, mscorlib">
+  <data name="panel10.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
   </data>
-  <data name="&gt;&gt;panel9.Name" xml:space="preserve">
-    <value>panel9</value>
+  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
+    <value>panel10</value>
   </data>
-  <data name="&gt;&gt;panel9.Type" xml:space="preserve">
+  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
     <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;panel9.Parent" xml:space="preserve">
+  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;panel9.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="Floor10Text.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 17.9999981pt</value>
@@ -1534,27 +2011,6 @@
     <value>panel10</value>
   </data>
   <data name="&gt;&gt;Floor10PanelImage.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="panel10.Location" type="System.Drawing.Point, System.Drawing">
-    <value>754, 204</value>
-  </data>
-  <data name="panel10.Size" type="System.Drawing.Size, System.Drawing">
-    <value>144, 215</value>
-  </data>
-  <data name="panel10.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="&gt;&gt;panel10.Name" xml:space="preserve">
-    <value>panel10</value>
-  </data>
-  <data name="&gt;&gt;panel10.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel10.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel10.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="AutomaticCheckBox.AutoSize" type="System.Boolean, mscorlib">
@@ -2118,6 +2574,75 @@
   <data name="&gt;&gt;panel11.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
+  <data name="&gt;&gt;GabrielText.Name" xml:space="preserve">
+    <value>GabrielText</value>
+  </data>
+  <data name="&gt;&gt;GabrielText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;GabrielText.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;GabrielText.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;EveraldoText.Name" xml:space="preserve">
+    <value>EveraldoText</value>
+  </data>
+  <data name="&gt;&gt;EveraldoText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;EveraldoText.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;EveraldoText.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;StudentsText.Name" xml:space="preserve">
+    <value>StudentsText</value>
+  </data>
+  <data name="&gt;&gt;StudentsText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentsText.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;StudentsText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;StudentsPanelImage.Name" xml:space="preserve">
+    <value>StudentsPanelImage</value>
+  </data>
+  <data name="&gt;&gt;StudentsPanelImage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StudentsPanelImage.Parent" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;StudentsPanelImage.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="panel12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>704, 421</value>
+  </data>
+  <data name="panel12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>204, 111</value>
+  </data>
+  <data name="panel12.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;panel12.Name" xml:space="preserve">
+    <value>panel12</value>
+  </data>
+  <data name="&gt;&gt;panel12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel12.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="GabrielText.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 14pt</value>
   </data>
@@ -2244,27 +2769,6 @@
   <data name="&gt;&gt;StudentsPanelImage.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="panel12.Location" type="System.Drawing.Point, System.Drawing">
-    <value>704, 421</value>
-  </data>
-  <data name="panel12.Size" type="System.Drawing.Size, System.Drawing">
-    <value>204, 111</value>
-  </data>
-  <data name="panel12.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="&gt;&gt;panel12.Name" xml:space="preserve">
-    <value>panel12</value>
-  </data>
-  <data name="&gt;&gt;panel12.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel12.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel12.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
@@ -2277,11 +2781,152 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>898, 537</value>
   </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        RK5CYII=
+</value>
+  </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterScreen</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Form1</value>
+    <value>Elevador - Sistemas Supervisorios</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MainWindow</value>

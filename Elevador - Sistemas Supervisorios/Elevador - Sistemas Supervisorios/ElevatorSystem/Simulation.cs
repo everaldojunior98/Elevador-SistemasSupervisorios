@@ -15,6 +15,9 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
         private readonly Thread simulationThread;
         private readonly CancellationTokenSource cancellationToken;
 
+        public delegate void OnGeneratedFloorEventHandler(object source, OnGeneratedFloorEventArgs args);
+        public event OnGeneratedFloorEventHandler OnGeneratedFloor;
+
         private readonly Elevator currentElevator;
         private bool enable;
 
@@ -68,6 +71,18 @@ namespace ElevadorSistemasSupervisorios.ElevatorSystem
                             direction = ElevatorDirection.UP;
                             break;
                     }
+
+                    if (floor == 1)
+                        direction = ElevatorDirection.UP;
+                    else if (floor == 10)
+                        direction = ElevatorDirection.DOWN;
+
+                    OnGeneratedFloor?.Invoke(this,
+                        new OnGeneratedFloorEventArgs
+                        {
+                            Floor = floor,
+                            Direction = direction
+                        });
 
                     currentElevator.RequestFloor(floor, direction);
                     Thread.Sleep(TIME_BETWEEN_GENERATION);
