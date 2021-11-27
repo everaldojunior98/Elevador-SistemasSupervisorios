@@ -22,6 +22,8 @@ namespace ElevadorSistemasSupervisorios
 
         private readonly Elevator elevator;
 
+        private readonly Simulation simulation;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -29,6 +31,8 @@ namespace ElevadorSistemasSupervisorios
             elevator = new Elevator();
             elevator.OnFloorChanged += ElevatorOnFloorChanged;
             elevator.OnStoppedFloor += ElevatorOnStoppedFloor;
+
+            simulation = new Simulation(elevator);
 
             //Carregando as fontes custom
             customFontCollection = new PrivateFontCollection();
@@ -127,11 +131,111 @@ namespace ElevadorSistemasSupervisorios
         private void AutomaticCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             ManualCheckBox.Checked = !AutomaticCheckBox.Checked;
+
+            if (ManualCheckBox.Checked)
+            {
+                simulation.Disable();
+
+                UpFloor1Button.Enabled = true;
+                UpFloor2Button.Enabled = true;
+                UpFloor3Button.Enabled = true;
+                UpFloor4Button.Enabled = true;
+                UpFloor5Button.Enabled = true;
+                UpFloor6Button.Enabled = true;
+                UpFloor7Button.Enabled = true;
+                UpFloor8Button.Enabled = true;
+                UpFloor9Button.Enabled = true;
+
+                DownFloor2Button.Enabled = true;
+                DownFloor3Button.Enabled = true;
+                DownFloor4Button.Enabled = true;
+                DownFloor5Button.Enabled = true;
+                DownFloor6Button.Enabled = true;
+                DownFloor7Button.Enabled = true;
+                DownFloor8Button.Enabled = true;
+                DownFloor9Button.Enabled = true;
+                DownFloor10Button.Enabled = true;
+            }
+
+            if (AutomaticCheckBox.Checked)
+            {
+                simulation.Enable();
+
+                UpFloor1Button.Enabled = false;
+                UpFloor2Button.Enabled = false;
+                UpFloor3Button.Enabled = false;
+                UpFloor4Button.Enabled = false;
+                UpFloor5Button.Enabled = false;
+                UpFloor6Button.Enabled = false;
+                UpFloor7Button.Enabled = false;
+                UpFloor8Button.Enabled = false;
+                UpFloor9Button.Enabled = false;
+
+                DownFloor2Button.Enabled = false;
+                DownFloor3Button.Enabled = false;
+                DownFloor4Button.Enabled = false;
+                DownFloor5Button.Enabled = false;
+                DownFloor6Button.Enabled = false;
+                DownFloor7Button.Enabled = false;
+                DownFloor8Button.Enabled = false;
+                DownFloor9Button.Enabled = false;
+                DownFloor10Button.Enabled = false;
+            }
         }
 
         private void ManualCheckBox_CheckedChanged(object sender, EventArgs e)
         {
             AutomaticCheckBox.Checked = !ManualCheckBox.Checked;
+
+            if (ManualCheckBox.Checked)
+            {
+                simulation.Disable();
+
+                UpFloor1Button.Enabled = true;
+                UpFloor2Button.Enabled = true;
+                UpFloor3Button.Enabled = true;
+                UpFloor4Button.Enabled = true;
+                UpFloor5Button.Enabled = true;
+                UpFloor6Button.Enabled = true;
+                UpFloor7Button.Enabled = true;
+                UpFloor8Button.Enabled = true;
+                UpFloor9Button.Enabled = true;
+
+                DownFloor2Button.Enabled = true;
+                DownFloor3Button.Enabled = true;
+                DownFloor4Button.Enabled = true;
+                DownFloor5Button.Enabled = true;
+                DownFloor6Button.Enabled = true;
+                DownFloor7Button.Enabled = true;
+                DownFloor8Button.Enabled = true;
+                DownFloor9Button.Enabled = true;
+                DownFloor10Button.Enabled = true;
+            }
+
+            if (AutomaticCheckBox.Checked)
+            {
+                simulation.Enable();
+
+                UpFloor1Button.Enabled = false;
+                UpFloor2Button.Enabled = false;
+                UpFloor3Button.Enabled = false;
+                UpFloor4Button.Enabled = false;
+                UpFloor5Button.Enabled = false;
+                UpFloor6Button.Enabled = false;
+                UpFloor7Button.Enabled = false;
+                UpFloor8Button.Enabled = false;
+                UpFloor9Button.Enabled = false;
+
+                DownFloor2Button.Enabled = false;
+                DownFloor3Button.Enabled = false;
+                DownFloor4Button.Enabled = false;
+                DownFloor5Button.Enabled = false;
+                DownFloor6Button.Enabled = false;
+                DownFloor7Button.Enabled = false;
+                DownFloor8Button.Enabled = false;
+                DownFloor9Button.Enabled = false;
+                DownFloor10Button.Enabled = false;
+            }
         }
 
         private Font AddFontFile(string fontName)
@@ -229,6 +333,7 @@ namespace ElevadorSistemasSupervisorios
         private void MainWindow_FormClosing(object sender, FormClosingEventArgs e)
         {
             elevator.Dispose();
+            simulation.Dispose();
         }
     }
 }
